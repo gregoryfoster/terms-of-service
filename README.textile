@@ -7,4 +7,4 @@ h3. Meta
 This should be useful at some point to someone.  GitHub provides the environment to collaboratively build the database as it's a simple, visible data structure.  Fork and send me pull requests to integrate in the documents you find or that you receive from your service providers.  All contracts are welcome.  Protect yourself by withholding documents that contain personally identifying information.
 
 Thanks,
-@gregoryfoster:http://twitter.com/gregoryfoster
+"@gregoryfoster":http://twitter.com/gregoryfoster

@@ -1,0 +1,120 @@
+@import url(/gx/css/global/global.css);
+#siteContainer {
+	width:825px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#bodyContainer {
+	clear: both;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+
+/** left nav definitions,  sheraton **/
+#bodyContainer #leftContainer {
+	width:185px;
+	text-align:center;
+	vertical-align: top;
+	/* background: url(/gx/images/sh_bkgrnd_column_left_bot.gif) bottom center no-repeat #D25F1C; */
+	background-color: #bbddee;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#bodyContainer #leftContainer #leftContainerBranding {
+        margin-bottom: 200px;
+}
+
+#bodyContainer #leftContainer #leftNavitems {
+	font-size: 11px;
+	text-align: left;
+	color: #90c7e5;
+	min-height: 228px;
+	padding: 0px 10px 10px 10px;
+	margin: 0px;
+}
+
+*html #bodyContainer #leftContainer #leftNavitems {
+	height: 228px;
+}
+
+#bodyContainer #leftContainer #leftNavitems ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#bodyContainer #leftContainer #leftNavitems li {
+	margin: 0px;
+	padding: 0px 0px 14px 0px;
+}
+
+#bodyContainer #leftContainer #leftNavitems li a:link, #bodyContainer #leftContainer #leftNavitems li a:hover, #bodyContainer #leftContainer #leftNavitems li a:visited {
+	display: block;
+	color: #ffffff;
+	color: #333333;
+	padding:0px;
+	margin:0px;
+}
+
+* html #bodyContainer #leftContainer #leftNavitems ul ul {
+	padding:0px;
+	margin: 15px 0px 0px 0px;
+}
+
+#bodyContainer #leftContainer #leftNavitems ul ul li a:link, #bodyContainer #leftContainer #leftNavitems ul ul li a:hover, #bodyContainer #leftContainer #leftNavitems ul ul li a:visited {
+	display: block;
+	color: #ffffff;
+	padding:0px 0px 0px 15px;
+	margin:0px;
+}
+
+#bodyContainer #leftContainer .leftNavComponent {
+	padding: 0px 0px 20px 0px;
+	margin: 0px;
+}
+
+#bodyContainer #leftContainer #leftNavitems a.locked {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#bodyContainer #bodyGap {
+	display:none;
+	width: 0px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-top: 0px;
+}
+
+/** center area definitions **/
+#bodyContainer #centerContainer {
+	width:640px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	padding:0px;
+	margin:0px;
+}
+
+#bodyContainer #centerContainer #contentArea {
+	padding: 42px 15px 20px 30px;
+	margin: 0px;
+}
+
+#centerContainer a, #centerContainer a:visited {
+        color: #11316a;
+}
+
+#searchResults h3 a, #searchResults h3 a:visited {
+        color: #FFFFFF; 
+
+}
+
+
+#topGXGraphic, #topGXtopborder, #topGXtopborder2 {
+        display: none;
+}

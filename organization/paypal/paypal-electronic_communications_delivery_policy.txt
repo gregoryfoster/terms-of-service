@@ -1,0 +1,46 @@
+PayPal
+Electronic Communications Delivery Policy (E-Sign Disclosure and Consent)
+Last Update: Apr 06, 2011
+
+This policy describes how PayPal delivers communications to you electronically. We may amend this policy at any time by posting a revised version on our website. The revised version will be effective at the time we post it. In addition, if the revised version includes a substantial change, we will provide you with 30 days’ prior notice by posting notice of the change on the “Policy Updates” page of our website.
+
+Electronic delivery of communications
+
+You agree and consent to receive electronically all communications, agreements, documents, notices and disclosures (collectively, “Communications”) that we provide in connection with your PayPal account (“Account”) and your use of our services. Communications include:
+
+agreements and policies you agree to (e.g., the PayPal User Agreement and the PayPal Privacy Policy), including updates to these agreements or policies;
+annual disclosures, including prospectuses and reports for PayPal Funds;
+transaction receipts or confirmations;
+Account statements and history;
+federal and state tax statements we are required to make available to you; and
+any other Account, PayPal Funds account, or transaction information.
+We will provide these Communications to you by posting them on the PayPal website and/or by emailing them to you at the primary email address listed in your PayPal profile.
+
+Hardware and software requirements
+
+In order to access and retain electronic Communications, you will need the following computer hardware and software:
+
+a computer with an Internet connection;
+a current web browser that includes 128-bit encryption (e.g. Internet Explorer version 6.0 and above, Firefox version 2.0 and above, Chrome version 3.0 and above, or Safari 3.0 and above) with cookies enabled;
+Adobe Acrobat Reader version 8.0 and above to open documents in .pdf format;
+a valid email address (your primary email address on file with PayPal); and
+sufficient storage space to save past Communications or an installed printer to print them.
+We will notify you if there are any material changes to the hardware or software needed to receive electronic Communications from PayPal. By giving your consent you are confirming that you have access to the necessary equipment and are able to receive, open, and print or download a copy of any Communications for your records. You may print or save a copy of these Communications for your records as they may not be accessible online at a later date.
+
+How to withdraw your consent
+
+You may withdraw your consent to receive Communications electronically by writing to us at "Attn: Electronic Communications Delivery Policy, P.O. Box 45950, Omaha, NE 68145-0950", or by contacting us via the “Contact Us” link at the bottom of each page of the PayPal website. If you fail to provide or if you withdraw your consent to receive Communications electronically, PayPal reserves the right to either deny your application for an Account, restrict or deactivate your Account, close your Account and any sub-account (such as a Student Account), or charge you additional fees for paper copies.
+
+After you consent to receive Communications electronically, you may withdraw your consent to receive IRS Form 1099-K electronically by contacting us as described above. You will continue to receive all your other Communications electronically, but we will send your Form 1099-Ks to you by U.S. mail.
+
+Requesting paper copies of electronic Communications
+
+If, after you consent to receive Communications electronically, you would like a paper copy of a Communication we previously sent you, you may request a copy within 180 days of the date we provided the Communication to you by contacting us as described above. We will send your paper copy to you by U.S. mail. In order for us to send you paper copies, you must have a current street address on file as your “Home” address in your PayPal profile. If you request paper copies, you understand and agree that PayPal may charge you a Records Request Fee for each Communication. The Records Request Fee will not be charged if you request a Form 1099-K in paper form; for all other Communications, the Records Request Fee is set out in Section 8 of the User Agreement.
+
+Updating your contact information
+
+It is your responsibility to keep your primary email address up to date so that PayPal can communicate with you electronically. You understand and agree that if PayPal sends you an electronic Communication but you do not receive it because your primary email address on file is incorrect, out of date, blocked by your service provider, or you are otherwise unable to receive electronic Communications, PayPal will be deemed to have provided the Communication to you.
+
+Please note that if you use a spam filter that blocks or re-routes emails from senders not listed in your email address book, you must add PayPal to your email address book so that you will be able to receive the Communications we send to you.
+
+You can update your primary email address or street address at any time by logging into the PayPal website, going to “My Account”, and selecting the “Profile” tab. If your email address becomes invalid such that electronic Communications sent to you by PayPal are returned, PayPal may deem your Account to be inactive, and you will not be able to transact any activity using your PayPal Account until we receive a valid, working primary email address for you.

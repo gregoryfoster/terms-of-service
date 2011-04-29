@@ -1,0 +1,17 @@
+PayPal Anti-Money Laundering and Counter-Terrorist Financing Statement
+Last Update: May 11, 2009
+
+As a global financial institution, PayPal is committed to full compliance with all applicable laws and regulations regarding Anti- Money Laundering (“AML”). PayPal’s policy is to prevent people engaged in money laundering, fraud, and other financial crimes, including terrorist financing, from using PayPal’s services.
+
+PayPal has robust policies and procedures to detect, prevent and report suspicious activity. To comply with OFAC (Office of Foreign Asset Control) requirements, and global sanctions, we screen our customer accounts against government watch lists. In addition, we may request that you provide us with documentation to help prove your identity or for business verification purposes. We report suspicious transactions to the financial intelligence unit in the respective country.
+
+How does this impact me?
+
+As part of our AML procedures, we collect information from you to satisfy our Know Your Customer requirements. This means that we may request information from you due to a specific identification requirement or as a result of our watch list screening process. We may ask you to provide documentation to help confirm your identity or provide additional information regarding your business. We may also request that you seek pre-approval for utilizing the PayPal service if your account falls within a high risk compliance category, as listed in our Acceptable Use Policy (AUP).
+
+The Acceptable Use Policy can be found here:
+
+http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/use/index_frame
+When is this information requested?
+
+We may ask for this information during account opening or as part of our account review process which we periodically conduct on our existing customers.

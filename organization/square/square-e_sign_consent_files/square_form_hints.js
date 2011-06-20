@@ -1,0 +1,1 @@
+SquareFormHints={init:function(){$(".label-hint, .hints h2 a").click(function(){$(".hints").show();var a=$(this).attr("href");$("input:first",a).focus();$(a).addClass("target").css("background-color","#eeffdd").animate({backgroundColor:"#e7e8e9"},1500,"swing",function(){$(this).css("background-color","transparent").removeClass("target");$("input:first",this).focus()})})}};

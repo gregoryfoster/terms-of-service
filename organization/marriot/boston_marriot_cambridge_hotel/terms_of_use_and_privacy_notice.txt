@@ -1,0 +1,58 @@
+Terms of Use and Privacy Notice
+
+Welcome to the Boston Marriott Cambridge Hotel high speed Internet access service (the "Service"). The Service is furnished by AT&T Corp. under an arrangement with Marriott International, Inc.  As a condition of accessing this Service, you must agree to the following terms and conditions of use (“Terms of Use”). If you do not agree to the Terms of Use you may not access or use the Service. Your clicking on “I Agree” at the bottom of these Terms of Use, or use of the Service indicates your acceptance of these Terms of Use.
+
+No Editorial Control
+
+Marriott International, Inc. and its affiliated hotels ("Marriott"), and Boston Properties, LLC (collectively, the “Companies”) do not review or exercise any editorial control over the content or materials made available over the Internet by third parties, including without limitation any electronic mail transmissions, newsgroups, or the like. However, Marriott may remove, block, filter, or restrict by any other means any materials that, in Marriott’s sole discretion, may be illegal, may subject the Companies to liability, or may violate these Terms of Use. Marriott utilizes bandwidth monitoring tools to manage Internet circuit traffic patterns. Marriott does not interrogate data nor capture any data on user’s laptop. The Companies and their suppliers may cooperate with legal authorities and/or third parties in the investigation of any suspected or alleged crime or civil wrong. Violation of these Terms of Use may result in the suspension or termination of access to the Service.
+
+Security
+
+You expressly acknowledge and agree that there are significant security, privacy and confidentiality risks inherent in accessing or transmitting information through the Internet, whether the connection to the Internet is facilitated through wired or wireless technology. These security issues range from interception of transmissions, loss of data, or the introduction of viruses or other programs that can damage your computer or network.
+
+ACCORDINGLY, YOU AGREE THAT THE COMPANIES AND THEIR SUPPLIERS SHALL NOT BE LIABLE FOR ANY INTERCEPTION OF TRANSMISSIONS, LOSS OF DATA, FILE CORRUPTION, HACKING OR DAMAGE TO YOUR COMPUTER OR NETWORK THAT RESULTS FROM THE TRANSMISSION OR DOWNLOAD OF INFORMATION OR MATERIALS THROUGH THE SERVICE.
+
+
+Restrictions on Use
+
+You agree to not use the Service to:
+
+(a) transmit any material that is unlawful, threatening, abusive, harassing, tortious, defamatory, obscene, libelous, invasive of another's privacy, racially, ethnically or otherwise objectionable;
+
+(b) harm, or attempt to harm, minors in any way;
+
+(c) impersonate any person or entity or falsely state or otherwise misrepresent your affiliation with a person or entity; forge headers or otherwise manipulate identifiers in order to disguise the origin of any material transmitted through the Service;
+
+(d) transmit any material that you do not have a right to make available under any law;
+
+(e) transmit any material that infringes any patent, trademark, trade secret, copyright or other proprietary rights of any party;
+
+(f) transmit any unsolicited or unauthorized advertising, promotional materials, "junk mail," "spam," "chain letters," "pyramid schemes" or any other form of solicitation;
+
+(g) transmit any material that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment; or
+
+(h) use the Services for excessively high volume data transfers.
+
+
+
+Disclaimer of Warranties
+
+THE MATERIALS AVAILABLE THROUGH THE SERVICE AND THROUGH ANY THIRD PARTY ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS AND WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND EITHER EXPRESS OR IMPLIED.
+
+THE COMPANIES MAKE NO WARRANTY OR REPRESENTATION AS TO THE ACCURACY, CURRENCY, COMPLETENESS, RELIABILITY OR USEFULNESS OF INFORMATION DISTRIBUTED THROUGH THE SERVICE. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, THE COMPANIES EXPRESSLY DISCLAIM ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+THE COMPANIES MAKE NO WARRANTY THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR FREE, OR THAT SOFTWARE DEFECTS WILL BE CORRECTED OR THAT THIS SITE OR THE SERVER THAT MAKES IT AVAILABLE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+
+THE COMPANIES MAKE NO WARRANTY REGARDING ANY GOODS OR SERVICES OR THE DELIVERY OF ANY GOODS OR SERVICES PURCHASED OR OBTAINED THROUGH OR FROM THE SERVICE OR ADVERTISED THROUGH THE SERVICE, OR REGARDING ANY TRANSACTIONS ENTERED INTO THROUGH THE SERVICE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU VIA THE SERVICE SHALL CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN.
+
+Limitation of Liability
+
+TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, SHALL THE COMPANIES OR THEIR VENDORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, USE, DATA OR OTHER INTANGIBLES, EVEN IF THE COMPANIES OR THEIR VENDORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, THAT RESULT FROM THE USE OR THE INABILITY TO USE THE SERVICE, FROM ANY CHANGES TO THE SERVICE, OR FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA.
+
+YOU SPECIFICALLY AGREE THAT THE COMPANIES AND THEIR VENDORS ARE NOT RESPONSIBLE OR LIABLE TO YOU OR ANYONE ELSE FOR ANY THREATENING, DEFAMATORY, OBSCENE, OFFENSIVE, TORTIOUS, OR ILLEGAL CONDUCT OF YOURS OR OF ANY OTHER PARTY OR ANY INFRINGEMENT OF ANOTHER'S RIGHTS, INCLUDING INTELLECTUAL PROPERTY RIGHTS, ARISING ON, FROM, OR IN CONNECTION WITH THE SERVICE. YOU ARE SOLELY RESPONSIBLE FOR YOUR OWN CONDUCT IN USING THIS SERVICE, AND WILL INDEMNIFY AND HOLD HARMLESS THE COMPANIES AND THEIR VENDORS FROM ANY CLAIMS, LIABILITY, DAMAGES OR COSTS THAT RESULT FROM YOUR CONDUCT IN USING THIS SERVICE.
+
+IF YOU ARE DISSATISFIED WITH THE SERVICE, THE MATERIALS AVAILABLE ON OR THROUGH THE SERVICE, OR WITH ANY PROVISIONS IN THIS LEGAL NOTICE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE SERVICE.
+
+Privacy
+
+The Companies respect the privacy of all users of the Service at Marriott and affiliated hotels. The Service does not correlate the user of this service with the sites visited. We do record the room number of the user for billing purposes. The record of a specific name associated with that room number is stored in a separate database to protect the privacy of the user. A log of all Service usage activity is maintained for system performance and maintenance purposes and system security requirements. At some hotels we provide the ability for a Service user to print a document or web pages while using the Service. While we take reasonable measures to secure the printer, because it is a shared printer we cannot ensure others may not see a document you print. The Companies and their vendors will only disclose usage information without your permission when required by law, or in good faith belief that such action is necessary to investigate or protect against harmful activities to Marriott guests, visitors, associates, or property (including this Service), or to others. If you should have any privacy related questions or concerns please send an e-mail to privacy@marriott.com.

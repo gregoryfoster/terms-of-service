@@ -1,0 +1,971 @@
+/* CSS Document */
+.logoicon, .writericon, .sheeticon, .showicon, .wikiicon, .notebookicon, .plannericon, .projectsicon, .creatoricon, .meetingicon, .chaticon, .crmicon, .mailicon, .zohodbicon, .zohobusinessicon, .eventsicon, .videosicon, .zohoapiicon, .zohopressroomicon, .newsicon, .eventsicon1, .newsicon1, .downloadicon, .downloadieicon, .downloadffoxicon, .gettingstartedicon, .partnericon, .desktopizeicon, .newlookicon, .newicon, .peoplesay, .adventnetminiicon, .partnerbanner, .docticon, .shareicon, .invoiceicon, .cioLogo, .theEcoLogo, .timeLogo, .marketplaceicon, .newserviceicon, .Plugin_list li, .peopleicon, .sharepointimage, .zohoDisAdbnr, .feedIcn, .twitterIcn, .facebookIcn, .business-week-home, .fGrouplogo, .foxBizlogo, .discussionicon, .nytLogo, .watsZoho, .zforGapps 
+, .recuriticon, .whiteCloseButton, .assisticon{background: transparent url(../images/zohoimages.gif) no-repeat;cursor:pointer; display:block}
+
+.logoicon{background-position: -70px 9px; height:80px; width:137px; padding-right:2px;}
+
+.writericon
+{
+background-position: -48px -966px;
+height:30px;
+width:27px;
+padding-right:2px;
+
+}
+.sheeticon
+{
+background-position: -46px -1132px;
+height:30px;
+width:30px;
+padding-right:2px;
+
+}
+.showicon
+{
+background-position: -47px -597px;
+height:27px;
+width:27px;
+padding-right:2px;
+
+}
+
+.peopleicon
+{
+background-position:-126px -655px;
+width:29px;
+height:21px;
+padding-right:2px;
+}
+
+.docticon
+{
+background-position:-126px -703px;
+width:27px;
+height:23px;
+padding-right:2px;
+}
+.wikiicon
+{
+background-position: -49px -652px;
+height:30px;
+width:27px;
+
+}
+.shareicon
+{
+background-position:-131px -595px;
+width:23px;
+height:26px;
+padding-right:2px;
+}
+.notebookicon
+{
+background-position: -47px -704px;
+height:30px;
+width:27px;
+
+}
+.plannericon
+{
+background-position: -47px -808px;
+height:30px;
+width:27px;
+padding-right:2px;
+
+}
+.projectsicon
+{
+background-position: -142px -1362px;
+height:25px;
+width:27px;
+padding-right:2px;
+
+}
+.creatoricon
+{
+background-position: -46px -864px;
+height:27px;
+width:27px;
+padding-right:2px;
+
+}
+.recuriticon
+{
+background-position: -214px -266px;
+height:33px;
+width:32px;
+}
+.assisticon
+{
+background-position: -216px -218px;
+height:32px;
+width:29px;
+}
+.meetingicon
+{
+background-position: -48px -916px;
+height:27px;
+width:30px;
+padding-right:2px;
+
+}
+.chaticon
+{
+background-position: -45px -1022px;
+height:27px;
+width:27px;
+padding-right:2px;
+
+}
+.crmicon
+{
+background-position: -45px -1185px;
+height:30px;
+width:27px;
+padding-right:2px;
+
+}
+.discussionicon
+{
+background-position: -123px -1024px;
+height:23px;
+width:28px;
+padding-right:2px;
+
+}
+.invoiceicon
+{
+background-position:-131px -504px;
+width:22px;
+height:26px;
+padding-right:2px;
+}
+.cioLogo
+{
+background-position:-121px -803px;
+width:85px;
+height:45px;
+}
+.theEcoLogo
+{
+background-position:-121px -863px;
+width:122px;
+height:42px;
+}
+.timeLogo
+{
+background-position:-121px -922px;
+width:96px;
+height:31px;
+}
+.mailicon
+{
+background-position: -45px -752px;
+height:30px;
+width:27px;
+padding-left:2px;
+
+}
+.zohodbicon
+{
+background-position: -142px -1239px;
+height:30px;
+width:27px;
+padding-left:2px;
+}
+.zohobusinessicon
+{
+background-position: -142px -1280px;
+height:33px;
+width:27px;
+padding-left:2px;
+
+}
+.marketplaceicon
+{
+background-position:-128px -554px; 
+width:28px;
+height:23px;
+padding-right:2px;
+}
+.sharepointimage
+{
+background-position:-307px -1583px;
+width:301px;
+height:85px;
+padding-right:2px;
+}
+.eventsicon
+{
+background-position: -26px -1453px;
+height:25px;
+width:108px;
+padding-right:4px;
+}
+.videosicon
+{
+background-position: -26px -1484px;
+height:25px;
+width:110px;
+padding-right:4px;
+}
+.zohoapiicon
+{
+background-position: -26px -1391px;
+height:25px;
+width:108px;
+padding-right:2px;
+}
+
+.zohopressroomicon
+{
+background-position: -26px -1422px;
+height:25px;
+width:110px;
+padding-right:2px;
+}
+.newsicon
+{
+background-position: -38px -1411px;
+height:25px;
+width:98px;
+padding-right:4px;
+}
+.eventsicon1
+{
+background-position: -45px -553px;
+height:20px;
+width:20px;
+padding-right:4px;
+}
+.newsicon1
+{
+background-position: -45px -506px;
+height:20px;
+width:20px;
+padding-right:4px;
+}
+.downloadicon
+{
+background-position: -58px -454px;
+height:23px;
+width:128px;
+padding-right:2px;
+
+}
+.downloadieicon
+{
+background-position: -9px -401px;
+height:23px;
+width:144px;
+padding:1px;
+
+}
+.downloadffoxicon
+{
+background-position: -9px -347px;
+height:23px;
+width:144px;
+padding:1px;
+
+}
+.gettingstartedicon
+{
+background-position: -9px -508px;
+height:25px;
+width:94px;
+padding:1px;
+
+}
+.partnericon
+{
+background-position: -43px -84px;
+height:107px;
+width:299px;
+padding:1px;
+
+}
+.partnerbanner
+{
+background-position: -10px -1533px;
+height:50px;
+width:629px;
+padding:1px;
+
+}
+.desktopizeicon
+{
+background-position: -9px -1502px;
+height:62px;
+width:206px;
+padding:1px;
+
+}
+.newlookicon
+{
+background-position: -9px -1416px;
+height:11px;
+width:45px;
+padding:1px;
+
+}
+.peoplesay
+{
+background-position: -7px -1856px;
+height:34px;
+width:154px;
+padding:1px;
+}
+.adventnetminiicon
+{
+background-position: -9px -2041px;
+height:33px;
+width:87px;
+padding:1px;
+}
+.newserviceicon
+{
+background-position:-121px -970px;
+width:25px;
+height:11px;
+float:left;
+padding-right:2px;
+}
+.watsZoho{background-position:-289px -118px;height:86px;width:304px;}
+.zforGapps{background-position:-289px -216px;height:102px;width:304px;}
+ .banner
+{
+	background: #ffffcd;
+	width:250px;
+	padding:1px;
+	border: thin solid #f9f2ba;
+	text-decoration: none;
+}
+.banner1
+{
+	background: #ffffcd;
+	padding:0px;
+	border: thin solid #ccc;
+	text-decoration: none;
+}
+.addons
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#007acf;
+	font-size:12px;
+	font-weight:bold;
+	display: block;
+	text-decoration:none;
+	}
+	.addons1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#007acf;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	
+}
+	.addons1:hover
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FF6600;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: underline
+	}
+.addons-text 
+{
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 12px;	
+color: #6b6b6b;
+}
+.addons-head 
+{
+	padding-left: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff8400;
+	font-weight: bold;
+}
+.bullet 
+{
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	vertical-align:middle;
+	background-position: center center;	
+}
+.dotline
+{
+	background-image:url(../images/dotline.gif);
+	background-repeat: repeat-x;
+	height:10px;
+	vertical-align:middle;
+	background-position: center center;	
+}
+.dotline_v
+{
+	background-image: url(../images/dotline_v.gif);
+	background-repeat: repeat-y;
+	width:5px;
+	background-position: center;
+}
+.banner_head
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:ffffcd;
+	font-weight:bold;
+	color: #e68319;
+	height:10px;
+}
+
+.banner_head1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:ffffcd;
+	font-weight:bold;
+	color: #000080;
+	height:10px;
+}
+
+.button
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	padding-left:6px;
+	color: #000000;
+	height:20px;
+	border-bottom:solid 1px;
+	border-top:solid 1px;
+	border-left:solid 1px;
+	border-color:#b8b8b8;
+	vertical-align:middle;
+	background-position: center center;
+	}
+	.producttitle1{
+	font-family: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 16px;
+	COLOR: #6a6a6a;  
+	background-color:ffffcd;
+	font-weight:bold; 
+	text-decoration:none;
+	}
+
+.arrow
+{
+	height:20px;
+	border-bottom:solid 1px;
+	border-top:solid 1px;
+	border-right:solid 1px;
+	border-color:#b8b8b8;
+	vertical-align:middle;
+	background-position: center center;	
+	}
+.corner_l,.corner_r,.cornerb_l,.cornerb_r
+{
+background-image: url(../images/zohoimages.gif);
+width:14px; height:14px; 
+background-repeat:no-repeat;
+}
+.corner_l{background-position:-44px -1270px;}
+.corner_r{background-position:-58px -1270px;
+}
+.cornerb_l{background-position:-44px -1284px;
+}
+.cornerb_r{background-position:-58px -1284px;
+}
+.boarder_b{ border-bottom:1px solid #2A83C9; height:13px;}
+.boarder_t{ border-top:1px solid #2A83C9; height:13px;}
+.boarder_l{ border-left:1px solid #2A83C9; width:13px;}
+.boarder_r{ border-right:1px solid #2A83C9; width:13px;}
+
+.b_corner_l,.b_corner_r,.b_cornerb_l,.b_cornerb_r
+{
+background-image: url(../images/bannercorner.gif);
+width:10px; height:10px; 
+background-repeat:no-repeat;
+}
+.b_corner_r{background-position:-10 0;
+}
+.b_cornerb_l{background-position:0 -10;
+}
+.b_cornerb_r{background-position:-10 -10;
+}
+.b_boarder_b{
+background-image: url(../images/banner_dot.gif);
+height:10px; 
+background-color:ffffcd;
+background-position:bottom;
+background-repeat:repeat-x;
+}
+.b_boarder_t{
+background-image: url(../images/banner_dot.gif);
+height:10px;
+background-color:ffffcd;
+background-position:top;
+background-repeat:repeat-x;
+}
+.b_boarder_l{
+background-image: url(../images/banner_dot.gif);
+width:10px; 
+background-color:ffffcd;
+background-position:left;
+background-repeat:repeat-y;
+}
+.b_boarder_r{
+background-image: url(../images/banner_dot.gif);
+width:10px; 
+background-color:ffffcd;
+background-position:right;
+background-repeat:repeat-y;
+}
+
+body{	background: #FFFFFF;	margin-bottom: 0px;	margin-left: 0px;	margin-right: 0px;	margin-top: 0px;        font-size: 11px;        font-family: Verdana, Arial, Helvetica;}
+.fL{ float:left}
+
+/* welcome div */
+.boarder_t{ width:271px;}
+.welcome_signinbg{ background:url(../images/welcome-signin-bg.gif) repeat-x left top;}
+.welcome_bnr-lefttop{ background:url(../images/zohoimages.gif) no-repeat -442px -1491px; height:14px; width:14px}
+.welcome_bnr-righttop{ background:url(../images/zohoimages.gif) no-repeat -457px -1491px; height:14px; width:14px}
+.welcome_heading{ font:bold 12px Arial, Helvetica, sans-serif; color:#4e7af3; width:400px; float:left}
+.signoutDiv { width:200px; float:right; text-align:right;}
+
+/* welcome div end */
+
+/* Defining Style for Links in second level */
+p{	  color: #000000;      font-size: 11px;      font-family: Verdana, Arial, Helvetica, sans-serif;	  line-height: 16px;	  word-spacing: 2px;	  text-align: justify;}
+td{	  color: #000000;      font-size: 11px;      font-family: Verdana, Arial, Helvetica, sans-serif;      text-decoration: none;}
+hr {       border: none;	   border-top: 1px dashed #CCCCCC;	   width: 100%;	   height: 1px;}
+H1{   color:#274273;   font-family:Arial, Helvetica, sans-serif;;   font-size:22px;   font-weight:normal;   word-spacing: 0px;}
+H2{color: #000000;font-size: 10pt;font-family: Verdana, Arial, Helvetica, sans-serif;text-decoration: none;}
+A.producttitle:link {	FONT-SIZE: 17px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica; font-weight:bold; text-decoration:none;}
+A.producttitle:visited {	FONT-SIZE: 17px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica; font-weight:bold; text-decoration:none;}
+A.producttitle:hover {	FONT-SIZE: 17px; COLOR: #3B5998; FONT-FAMILY: Arial, Helvetica; font-weight:bold; text-decoration:none;}
+A.producttitle:active {	FONT-SIZE: 17px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica; font-weight:bold; text-decoration:none;}
+.grey-text {	font-family: "Trebuchet MS";	color: #666666;	font-size: 11px;}
+.bold-text {	font-family: "Trebuchet MS";	color: #000000;	font-size: 14px;	font-weight: bold;}
+/* for all links */
+A.headerlink:link {	FONT-SIZE: 11px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink:visited {	FONT-SIZE: 11px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink:hover {	FONT-SIZE: 11px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink:active {	FONT-SIZE: 11px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}/* for all links */
+/* for all links */
+A.headerlink2:link {	FONT-SIZE: 12px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink2:visited {	FONT-SIZE: 12px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink2:hover {	FONT-SIZE: 12px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink2:active {	FONT-SIZE: 12px; COLOR: #02765C; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}/* for all links */
+
+/* for all links */
+A.headerlink1:link {	FONT-SIZE: 11px; COLOR: #007acf; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink1:visited {	FONT-SIZE: 11px; COLOR: #007acf; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.headerlink1:hover {	FONT-SIZE: 11px; COLOR: #007acf; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none}
+A.headerlink1:active {	FONT-SIZE: 11px; COLOR: #007acf; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: Underline}/* for all links */
+.grey-text {	font-family: Arial, Verdana, Helvetica, sans-serif;	color: #898989;	font-size: 11px;}
+.grey-ruler {	background-image: url(../images/grey_ruler.gif);background-repeat: repeat-x;background-position: center;}
+.testimonial-bg {	background-color: #E9F8FF;	border-left-width: 1px;	border-left-style: solid;	border-left-color: #DFE3E6;}
+.testimonial-text {	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	color: #171717;	line-height: 1.5em;	}
+.testimonial-hightlight-text {	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	color: #171717;	line-height: 1.5em;	background-color: #F9FAD0;}
+.description-text {	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	line-height: 1.5em;	}	
+.title {	font-family:Arial, Helvetica, sans-serif;	font-size: 18px; color: #0a80d3;	line-height: 1.5em;	font-weight:normal;	}	
+.title1 {	font-family:Trebuchet MS;	font-size: 17px; color: #0a80d3;	line-height: 1.5em;	font-weight:normal;	}	
+.vert-line {	background-image: url(../images/vert_dot.gif);	background-repeat: repeat-y;	background-position: center;}
+.horz-line {	background-image: url(../images/horz_line.gif);	background-repeat: repeat-x;	background-position: center;}
+.Subheading1{	background: #FFFFFF;	margin-bottom: 0px;	margin-left: 0px;	margin-right: 0px;	margin-top: 0px;        font-size: 14pt;        font-family: Verdana, Arial, Helvetica;}
+.Subheading2{	background: #FFFFFF;	margin-bottom: 0px;	margin-left: 0px;	margin-right: 0px;	margin-top: 0px;        font-size: 12pt;        font-family: Verdana, Arial, Helvetica;}
+.Subheading3{	color: #355161;      font-size: 16pt;      font-family: Verdana, Arial, Helvetica;	font-weight: bold;      text-decoration: none;}
+.quickread{	font: bold 16px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color: #000;	margin: 0px;	margin: 0 0 10px 0;}
+a.quickread:link {      font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color: Black;	margin: 0px;	margin: 0 0 10px 0;      text-decoration: none;}
+a.quickread:active {     font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color: Black;	margin: 0px;	margin: 0 0 10px 0;      text-decoration: none;}
+a.quickread:visited {     font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color: Black;	margin: 0px;	margin: 0 0 10px 0;      text-decoration: none;}
+a.quickread:hover {    font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color: Black;	margin: 0px;	margin: 0 0 10px 0;      text-decoration: none;}
+A.black-link:link {	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.black-link:visited {	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.black-link:hover {	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+A.black-link:active {	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline}
+/* new p[age images - classes*/
+.download {	background-image: url(../images/new_image.gif);	background-repeat: no-repeat;	background-position: top right;}
+.utilities {	background-image: url(../images/pxls-orange.gif);	background-position: bottom;}
+.leftmargin {margin-left: 2cm}
+.toll_free {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 12px;	color: #5b5b5b;	text-decoration: none;}
+.baihui{ background:url(../images/baihui.gif) no-repeat; width:170px; height:22px; float:left; margin-left:215px; margin-top:3px; cursor:pointer;}
+.entab{background: #E2E2E2;	margin-bottom: 0px;	margin-left: 0px;	margin-right: 0px;	margin-top: 0px;    font-size: 14pt;    font-family: Verdana, Arial, Helvetica;	padding-left:5px;}
+.distab{	background: #E2E2E2;	margin-bottom: 0px;	margin-left: 0px;	margin-right: 0px;	margin-top: 0px;    font-size: 14pt;    font-family: Verdana, Arial, Helvetica;	padding-left:5px;}
+.entab{	background: #FFF;	margin-bottom: 0px;	margin-left: 0px;	margin-right: 0px;	margin-top: 0px;    font-size: 14pt;    font-family: Verdana, Arial, Helvetica;	padding-left:5px;}
+a.entab:link,a.entab:visited,a.entab:hover,a.entab:active {    font-size: 14pt;    font-family: Verdana, Arial, Helvetica;	padding-left:5px;	color:#000000;	text-decoration: none;}
+a.distab:link, a.distab:visited,a.distab:hover,a.distab:active {	background: #E2E2E2;    font-size: 14pt;    font-family: Verdana, Arial, Helvetica;	padding-left:5px;	color:#000000;	text-decoration: none;}
+.normaltext {	color: #DC143C;	font-size: 11px;}
+#dropmenudiv{position:absolute;border-bottom-width: 0;font:normal 10px Verdana;line-height:18px;z-index:70; text-decoration: none;}
+#dropmenudiv a{width: 70%;display: block;text-indent: 1px;border-bottom: 0px solid black;font:normal 10px Verdana;padding: 1px 0;text-decoration: none;font-weight: bold;}
+A.footerlink:link {
+	FONT-SIZE: 11px; COLOR: #627388; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline
+}
+A.footerlink:visited {
+	FONT-SIZE: 11px; COLOR: #627388; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline
+}
+A.footerlink:hover {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline
+}
+A.footerlink:active {
+	FONT-SIZE: 11px; COLOR: #627388; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: Underline
+}
+a.tab_text {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	color: #000000;	text-decoration: underline;}
+a.tab_text:active {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	color: #000000;	text-decoration: underline;}
+a.tab_text:visited {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	color: #000000;	text-decoration: underline;}
+a.tab_text:hover {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;	color: #000000;	text-decoration: underline;}
+
+
+/* zohopartners start */
+
+tr .grayline td{
+border-bottom:2px solid #373737;
+font:normal 12px verdana;
+color:#000000;
+line-height:25px;
+}
+.lefttopcorner{
+background:url(../images/Left-topcorner.gif) no-repeat;
+width:8px;
+height:8px;
+}
+.righttopcorner{
+background:url(../images/right-topcorner.gif) no-repeat;
+width:8px;
+height:8px;
+}
+.topborder{
+background:url(../images/topborder.gif) repeat-x;
+height:8px;
+}
+.leftborder{
+background:url(../images/leftborder.gif) repeat-y;
+width:8px;
+}
+.rightborder{
+background:url(../images/rightborder.gif) repeat-y;
+width:8px;
+}
+.bottomborder{
+background:url(../images/bottomborder.gif) repeat-x;
+height:8px;
+}
+.leftbotcorner{
+background:url(../images/Left-bottomcorner.gif) no-repeat;
+height:8px;
+width:8px;
+}
+.rightbotcorner{
+background:url(../images/right-bottomcorner.gif) no-repeat;
+height:8px;
+width:8px;
+}
+.partnername{
+font:bold 12px verdana;
+line-height:25px;
+}
+#moreinfo{
+background:url(../images/moreinfo.gif) no-repeat;
+width:86;
+height:20;
+float:right;
+margin-bottom:5px;
+padding-top:2px;
+text-align:center;
+
+}
+#moreinfo a{
+font:bold 11px verdana;
+color:#FFF;
+text-decoration:none;
+}
+#moreinfo a:hover{
+color:#000;
+}
+
+.zappBorder1 {border-top:0px dashed #aaaaaa;}
+.zpptopblueborder{border-top:5px solid #5bcbff;}
+.zappTabOutLine {border-top:0px solid #aaaaee; border-left:0px solid #aaaaee; border-bottom:0px solid #aaaaee; padding:0px;}
+.zappTabContentOutLine {border-top:0px solid #aaaaee; border-right:0px solid #aaaaee; border-bottom:0px solid #aaaaee; padding:10px;}
+.zappTabEnClose {border-right:1px solid #96deff;}
+.tabSelected {background-color:#96deff;border-left:0px solid #99ff99;font-weight:bold;font-size:12px;padding:10px;}
+.tabUnSelected {background-color:#ffffff; border-left:0px solid #efefef;font-weight:normal;font-size:12px;border-bottom:0px solid #dadada; border-top:1px solid #ffffff; padding:10px;}
+.zappTxtNormal  {font-family:arial,sans-serif;font-size:12px;font-weight:normal;color:#000000;line-height:18px;}
+.zappHeader {font-size:18px;font-weight:bold;}
+.zappHdr2 {border-top:1px solid #bbdddd;font-size:15px;background-color:#f5f5f5;}
+.zappHdr {background-color:#ccefff;border-top:1px solid #bbdddd;}
+.zappPartnerMail {border:1px dashed orange; background-color:#ffffff;padding:10px 5px 10px 5px; width:90%;}
+.zappquotes {border:0px dotted  #3366aa; ;padding:20px 20px 20px 20px; width:155px; text-align:left; font-size:12px; ;line-height:16px; color:#555555;}
+.zappShadow {background:#ffffff url(../images/shadow.gif) no-repeat;}
+.zappBtnMoreInfo {padding:4px;background-color:#aabbee;color:white;}
+.zappListBoxLeft {border-bottom:1px dotted #dadada; border-left:1px dotted #dadada;height:150px;}
+.zappListBoxRight {border-bottom:1px dotted #dadada; border-right:1px dotted #dadada;border-left:1px dotted #dadada;height:150px;}
+
+
+/* zohopartners end */
+
+A.quickread1:link {font-size: 16px; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color:#DF7417; font-weight:bold;}
+A.quickread1:visited {color:#000000;}
+A.quickread1:hover {color:#DF7417;}
+A.quickread1:active {font-size: 16px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;	color:#DF7417;font-weight:bold;}
+	
+	
+/* zohopresskit start */
+
+img{
+border:none;
+}
+.topline{
+border-top:2px solid #5bcbff;
+margin-top:5px;
+}
+.middlehline{
+border-left:1px solid #96deff;
+}
+ul#leftmenu{
+list-style:none;
+font:bold 12px verdana;
+color:#007acf;
+text-decoration:none;
+margin:25px 0 0 0;
+padding:0;
+}
+ul#leftmenu li{
+padding:8px 0 8px 10px;
+}
+ul#leftmenu li a{
+text-decoration:none;
+color:#007acf;
+}
+ul#leftmenu li a:hover{
+color:#FF8500;
+text-decoration:underline;
+}
+ul#leftmenu li.selected{
+background:#96deff;
+color:#000;
+}
+.pagetitle{
+background:#5bcbff;
+font:bold 13px verdana;
+color:#000;
+padding:3px 0 5px 10px;
+}
+tr.tbtitle th{
+font:bold 11px verdana;
+background:#cdefff;
+line-height:20px;
+padding-left:20px;
+text-align:left;
+}
+tr.tbrow td{
+font:normal 11px verdana;
+background:#fff;
+line-height:28px;
+padding-left:20px;
+text-align:left;
+border-bottom:1px solid #C7EDFF;
+}
+tr.tbrow td a{
+color:#007acf;
+}
+tr.newshead td{
+background:#cdefff;
+font:bold 11px verdana;
+line-height:25px;
+padding-left:10px;
+}
+tr.newshead td a{
+color:#000;
+}
+tr.newscont td{
+background:#FFF;
+font:normal 11px verdana;
+padding:10px;
+}
+.description-event{
+font:normal 13px verdana;
+padding-left:20px;
+padding-top:30px;
+}
+ul#events{
+padding:20px 0 0 100px;
+list-style:none;
+}
+ul#events li{
+background:url(../images/bullet2.gif) no-repeat;
+background-position: 0 .7em;
+padding-left: 1.3em;
+line-height:25px;
+}
+ul#events li a{
+color:#007acf;
+}
+tr.logokit td{
+text-align:center;
+padding:5px;
+font:bold 11px verdana;
+}
+tr.logokit1 td{
+text-align:center;
+padding:5px;
+border-top:1px dotted #CCCCCC;
+font:normal 11px verdana;
+}	
+	
+/* zohopresskit end */
+
+/* zohofaq start*/
+
+.faqTabHdrG {
+	background-color:#ffffff;
+	border-bottom:2px solid #d1d1ff;
+	border-right:1px solid #dadada;	
+}
+
+
+.faqTabHdr {
+	background-color:#efefff;
+	border-bottom:2px solid #d1d1ff;
+	border-top:1px solid #ffffff;
+		border-right:1px solid #dadada;
+}
+
+.faqTabCell {
+	border-right:1px solid #dadada;
+}
+
+
+.faq-link{
+font:normal 13px verdana;
+padding-left:20px;
+padding-top:2px;
+}
+
+/* zohofaq end */
+
+/* new sprite images */
+.zohoDisAdbnr{ background-position:-137px -1403px; width:304px; height:102px; display:block}
+.feedIcn{ background-position:-157px -991px; width:24px; height:24px; display:block}
+.twitterIcn{ background-position:-123px -991px; width:24px; height:24px; display:block}
+.facebookIcn{ background-position:-191px -991px; width:24px; height:24px; display:block}
+.business-week-home{ background-position:-123px -1134px; width:81px; height:20px; display:block}
+.fGrouplogo{ background-position:-123px -1094px; width:89px; height:31px;}
+.foxBizlogo{ background-position:-123px -1161px; width:92px; height:69px;}
+
+/* new sprite images end */
+
+.topMainHdr{background:url(../images/zohoimages.gif) no-repeat 0 -1673px; width:630px; height:39px}
+.utilitiesHdr{background:url(../images/zohoimages.gif) no-repeat -176px -1354px; width:304px; height:39px}
+.topheading_bg{
+	background-image: url(../images/zoho-product-band.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	}
+.utilitiesHeading_bg{
+	background-image:url(../images/utilities-head.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+
+	}
+.Plugin_list{ padding-left:0; margin-left:0}	
+.Plugin_list li{background-position: -134px -763px;
+				height:40px;
+				list-style:none;
+				padding-left:20px;
+				font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+ 	           
+				}
+.Plugin_list li a{font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+				  text-decoration:none;
+				  color:#000000;
+
+				  }
+.tickIcon{
+	background:url(../images/tick.gif) no-repeat 0px 0px;
+	padding-left:16px;
+}
+.crossIcon{
+	background:url(../images/cross.gif) no-repeat 0px 0px;
+	padding-left:16px;
+}				  
+A.pr:link {
+	FONT-SIZE: 12px; COLOR: #3B5998; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.pr:visited {
+	FONT-SIZE: 12px; COLOR: #3B5998; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.pr:hover {
+	FONT-SIZE: 12px; COLOR: #3B5998; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.pr:active {
+	FONT-SIZE: 12px; COLOR: #3B5998; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.nytLogo
+{
+	background-position:-123px -1066px;
+	width:123px;
+	height:19px;
+}
+.zdnetLogo
+{
+	background-image:url(../images/zdnetlogo.gif);
+	width:86px;
+	height:58px;
+}
+.readwritewebLogo
+{
+background-image:url(../images/readwritelogo.gif);
+	width:99px;
+	height:17px;
+}
+
+a.footer:hover {
+text-decoration:none;
+}
+
+a.footer {
+color:#0042BC;
+font-size:11px;
+text-decoration:none;
+}
+.nowrap{ white-space:nowrap}
+
+/* video styles */
+.dimDivBg {background: url(../images/dimBgcolor.png) repeat 0 0;height:100%;overflow:hidden;position:fixed;width:100%;z-index:6000;}
+.whiteCloseButton { background-position:-210px -344px; cursor:pointer;height:46px;position:absolute;right:-20px;top:-22px;width:46px;}
+.dropShadowCont {-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;background:#FFFFFF;
+border:5px solid #67686B;height:400px;margin:10% auto 0;width:690px;}
+.normalPopupCont {border:0 solid #467FD2;padding:0;position:relative;text-align:left;}
+#popUpVideo{ cursor:pointer}
+
+
+#mainContaner .tableBborder{ border:none\9!important;}
+#mainContaner .tableBborder{
+-moz-border-radius: 14px;
+-webkit-border-radius: 14px;
+border-radius: 14px;
+border:1px solid #2a83c9;
+}
+#mainContaner .tcorner_l,#mainContaner .tcorner_r,#mainContaner .tcornerb_l, #mainContaner .tcornerb_r{background-image: url(../images/zohoimages.gif)\9; width:14px; height:14px; background-repeat:no-repeat;}
+.tcorner_l{background-position:-44px -1270px;}
+.tcorner_r{background-position:-58px -1270px;}
+.tcornerb_l{background-position:-44px -1284px;}
+.tcornerb_r{background-position:-58px -1284px;}
+#mainContaner .tboarder_b{ border-bottom:1px solid #2A83C9\9; height:13px;}
+#mainContaner .tboarder_t{ border-top:1px solid #2A83C9\9; height:13px;}
+#mainContaner .tboarder_l{ border-left:1px solid #2A83C9\9; width:13px;}
+#mainContaner .tboarder_r{ border-right:1px solid #2A83C9\9; width:13px;}
+#mainContaner .ttopMainHdr{background:url(../images/zoho-header.gif) no-repeat 0 -2px; position:relative; z-index:-1}
+#mainContaner .ttopMainHdr{background:url(../images/zohoimages.gif) no-repeat 0 -1673px\9; width:630px; height:39px}
+#mainContaner .tutilitiesHdr{background:url(../images/zoho-header.gif) no-repeat 0px -58px; position:relative; z-index:-1}
+#mainContaner .tutilitiesHdr{background:url(../images/zohoimages.gif) no-repeat -176px -1354px\9; width:304px; height:39px}
+#mainContaner .twelcome_bnr-lefttop{ background:url(../images/zoho-header.gif) no-repeat -320px -59px; position:relative; z-index:99}
+#mainContaner .twelcome_bnr-righttop{ background:url(../images/zoho-header.gif) no-repeat -335px -59px; position:relative; z-index:99}
+#mainContaner .twelcome_bnr-lefttop{ background:url(../images/zohoimages.gif) no-repeat -442px -1491px\9; height:14px; width:14px}
+#mainContaner .twelcome_bnr-righttop{ background:url(../images/zohoimages.gif) no-repeat -457px -1491px\9; height:14px; width:14px}
+#mainContaner .twelcome_heading{ font:bold 13px Arial, Helvetica, sans-serif; color:#4e7af3; width:400px; float:left}
+.description-textbnr {  font-family:Arial, Helvetica, sans-serif; font-size: 15px; color: #000000; line-height: 1.5em;}
+.description-textbnr a{  font-family:Arial, Helvetica, sans-serif; font-size: 15px; color: #000000; line-height: 1.5em; font-weight:bold; color:#0027B6} 

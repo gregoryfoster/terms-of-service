@@ -1,0 +1,1835 @@
+/*
+-----------------------------------------------
+1105 Media Corporate Site
+author:   rodrigo munoz
+version:  Nov 1 2007
+----------------------------------------------- */
+
+/* =reset.css */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, address, th, td {
+margin : 0; padding :0; }
+h2, h3, h4, h5, h6 {
+font-size : 100%;
+font-weight : normal; }
+ol, ul {
+list-style-type : none; }
+table {
+border-collapse : collapse;
+border-spacing : 0; }
+caption, th {
+text-align : left; }
+fieldset, img { border : 0; }
+dt, address, caption, cite, code, dfn, em, i, strong, b, th, var {
+font-style : normal;
+font-weight : normal; }
+q:before, q:after { content :''; }
+a:active { outline: none; }
+/* CSS Document */
+html, body {height: 100%;}
+html {background: url(pattern.gif);}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background: transparent url(bodyBG-trans.png) no-repeat top left;
+	font-size: 12px;
+	position: relative;
+}
+h1 {
+	margin: 0;
+	padding: 0px;
+	text-indent: -9999px;
+	padding-top: 70px;
+	height: 32px;
+	width: 320px;
+	overflow: hidden;
+	float: left;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+	background: url(1105Logo.gif) no-repeat top left;
+	display: block;
+	margin-left: 69px;
+	width: 208px;
+	height: 32px;
+	outline: none;
+}
+a {color: #82261B;}
+h5 {padding-bottom: 10px;}
+h6 {font-weight: bold;}
+#wrapper {
+	width: 960px;
+	background: url(wrapperBG.png) repeat-y 0 0;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	position: relative;
+	height: 100%;
+}
+html>body #wrapper {
+	height:auto;
+	min-height:84%;
+}
+html>body.home #wrapper {
+	height:auto;
+	min-height:40px;
+}
+#header {
+	background:url(BorderTop-trans.png) no-repeat 0 0;
+	height: 140px;
+}
+.home #header {
+	background:url(BorderTop-trans.png) no-repeat 0 0;
+	height: 130px;
+}
+
+.home #pContent h2 {background: none;}
+/******  Main Navigation ******/
+#navigation ul {
+	list-style: none;
+	margin: 88px 72px 0 0;
+	float: right;
+}
+#navigation ul li {
+	float: left;
+	margin: 0 0 20px 20px;
+	text-transform: uppercase;
+}
+#navigation a {
+	text-decoration: none;
+	color: #000;
+}
+#navigation a:hover {
+	border-bottom: 2px solid #82261B;
+}
+#pContent {
+	width: 595px;
+	float:left; 
+	background: url(introBG.gif) repeat-y;
+}
+#pContent h2 {
+	background: url(pContentTop.gif) no-repeat;
+	font-size: 2em;
+	font-weight: normal;
+	color: #82261B;
+	padding: 8px 0 15px 12px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#pContent h3 {
+	font-size: 1.7em;
+	font-weight: normal;
+	color: #000;
+	padding: 0 8px 10px 12px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#pContent div.wrap h3 {
+	padding: 0 8px 0 12px;
+}
+/* events
+-------------------------------*/
+body.event #pContent h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	color: #666;
+	padding: 10px 8px 10px 14px;
+	margin: 0;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+}
+body.event #pContent li {
+	font-weight: bold;
+	color: #000;
+	line-height: 1.1em;
+}
+body.event #pContent li span {
+	font-size: .9em;
+	font-weight: normal;
+	color: #666;
+}
+body.event #pContent li span em {
+	font-weight: normal;
+	font-style: normal;
+	color: #336699;
+}
+
+
+
+#pContent p {
+	padding: 0 5px 8px 12px;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: auto;
+	margin-right: 12px;
+}
+#pContent p.caption {
+	padding: 5px 5px 15px 12px;
+	font-size: 90%;
+	line-height: 1.2em;
+	width: auto;
+	margin-right: 12px;
+	color: #555;
+	text-align: center;
+}
+/*#pContent p span {text-transform:uppercase;}*/
+#pContent ul {
+	padding-left: 15px;
+	float: left;
+}
+#pContent li {
+	float: left;
+	width: 258px;
+	padding-bottom: 1.5em;
+}
+#pContent .team li span.gray {
+	color: #EFEFEF;
+}
+.markets #pContent li a {
+	text-decoration: none;
+	color: #000;
+	width: 100px;
+}
+#pContent li a:hover {
+	text-decoration: underline;
+}
+#pContent dd {
+	padding-left: 30px;
+}
+
+#pContent p a:link, #pContent p a:visited {
+	color: #3875D7;
+	text-decoration: none;
+}
+#pContent p a:hover {
+	text-decoration: underline;
+}
+#pContent p a:active {
+	color: #000;
+	text-decoration: none;
+}
+/*.home #pContent p a:link, .home #pContent p a:visited {
+	color: #82261B;
+	text-decoration: none;
+}*/
+.home #pContent p a:hover {
+	text-decoration: underline;
+}
+.home #pContent p a:active {
+	color: #82261B;
+	text-decoration: none;
+}
+body.ourTeam #pContent p {
+	width: 250px;
+	float: left;
+}
+.markets #pContent img {
+	float: left;
+	margin: 6px 20px 0px 12px;
+	padding: 6px;
+	background: #FFFFFF;
+	border: 1px solid #999999;
+	border-bottom: 1px solid #333333;
+	border-right: 1px solid #333333;
+}
+.edu #pContent img, .redmond #pContent img, .hme #pContent img {
+	margin:4px 12px 4px 12px;
+}
+.hme #pContent img.groupLogo {
+ position:absolute;
+ left:535px;
+ top: 142px;
+ background:none;
+ border:none;
+ }
+.health #pContent img {
+	margin:5px 20px 0pt 12px;
+}
+div#legend  {
+	width: 822px;
+	height: 54px;
+	margin: 25px 69px 0 69px;
+	background: url(legend.gif) no-repeat top left;
+	overflow: hidden;
+}
+#legend ul {
+	list-style: none;
+	display: block;
+	padding-top: 6px;
+	padding-left: 135px;
+}
+#legend ul li {
+	float: left;
+	padding: 10px 0 10px 65px;
+}
+.magazineIcon {background: url(magazine.gif) no-repeat 28% 50%;}
+.newsletterIcon {background: url(newsletter.gif) no-repeat 31% 50%;}
+.websiteIcon {background: url(website.gif) no-repeat 38% 50%;}
+.eventIcon {background: url(event.gif) no-repeat 40% 50%;}
+#intro {
+	overflow: hidden;
+	width: 822px;
+	margin: 0 69px;
+	background: #333 url(introBottom.gif)  no-repeat bottom left;
+	padding-bottom: 12px;
+}
+#intro li em {
+	font-weight: bold;
+	font-style: normal;
+}
+#intro #pContent p.tagline {
+	margin: 0 0 3px 10px;
+	padding: 0;
+	font-size: 90%;
+	font-style: italic;
+}
+#sNav {
+	width: 227px;
+	float: left;
+	color: #fff;
+	background: #333;
+	text-transform: uppercase;
+	font-size:10px;
+}
+#sNav h2 {
+	margin: 0;
+	padding: 8px 10px 15px 8px;
+	font-weight: normal;
+	font-size: 18px;
+	background: #333 url(topSNav.gif) no-repeat top left;
+}
+#sNav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#sNav ul li {
+padding-left: 12px;
+padding-bottom: 5px;
+padding-top: 5px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
+border-bottom: 1px dotted gray;
+background-color:#333;
+}
+#sNav ul li ul {
+padding: 0;
+background-color:#626262;
+margin: 5px 0 0 -12px;
+}
+#sNav ul ul li {
+border-bottom:1px dotted #333;
+padding-left:32px;
+background: #626262 url(arrow.gif) no-repeat 12px 5px;
+}
+#sNav a{
+width:100%;
+height:100%;
+display:block;
+}
+#sNav a:link, 
+#sNav a:visited {
+text-decoration: none;
+color:#EFEFEF;
+}
+#sNav a:hover {
+text-decoration:underline;
+color:#FFF;
+}
+#sNav a:active {
+text-decoration: none;
+color:#EFEFEF;
+}
+/* #####  current selection  ##### */
+#sNav ul li.currentSelection {
+	color: #BDD3EF;
+	font-weight:bold;
+	background-color:#404040;
+	margin-bottom:0;
+}
+#sNav ul li.currentSelection a {
+	color: #BDD3EF;
+}
+#sNav ul li.currentSelection ul li.currentSelection {
+color: #fff;
+font-weight: bold;
+background: #404040 url(arrow2.gif) no-repeat 12px 5px;
+}
+.markets #sNav ul li.currentSelection,
+.ourTeam #sNav ul li.currentSelection {
+padding-bottom: 0;
+border:none;
+}
+.ourTeam #sNav ul .currentSelection li.currentSelection {padding-bottom:5px;}
+/* #####  Sector Listing Styling ##### */
+#sectorListing, #bios {
+	margin: 0 69px;
+	position: relative;
+	padding-top: 20px;
+}
+#sectorListing h2 {
+	font-size: 16px;
+	letter-spacing: 1px;
+} 
+h3 {
+font-size:18px;
+color:#82261B;
+text-transform:uppercase;
+}
+h3.small {
+	font-size:12px;
+	color:#82261B;
+	text-transform:none;
+	}
+div.brand {
+	background: #eee url(brandsBottom.gif) no-repeat bottom left;
+	position: relative;
+	margin: 10px 0;
+	padding-bottom: 10px;
+}
+#sectorListing h5 a {
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000;
+	display: block;
+	outline: none;
+}
+#sectorListing h5 a:hover {
+	color: #62B4D7;
+}
+.brand h2 {
+background: #eee url(brandListingsTop.gif) no-repeat top left;
+font-size: 14px;
+font-weight: normal;
+padding: 0 0 0 210px;
+margin: 0;
+line-height: 1em;
+}
+.brand p {
+	padding: 0 10px 30px 210px;
+	margin: 0;
+	color: #333;
+	width: 600px;
+}
+.brand img {
+position: absolute;
+top: 12px;
+left: 12px;
+}
+div#msdn.brand {
+	padding-bottom: 25px;
+}
+div#vrm.brand {
+	padding-bottom: 30px;
+}
+div#technet.brand {
+	padding-bottom: 45px;
+}
+div#vsl.brand {
+	padding-bottom: 25px;
+}
+
+#sectorListing h3.InThisBrand  {
+	margin: 0;
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	padding: 10px 110px 60px 10px;
+	background: url(PNW_icon.gif) no-repeat 50% 50%;
+	color: #3A4295;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform:capitalize;
+}
+#sectorListing #ct h3.InThisBrand  {
+	background: url(NME_icons.gif) no-repeat 50% 50%;
+}
+div#red h5, div#rcp h5, div#es h5, div#ea h5 {padding-top:40px;}
+div#ghit h5, div#its h5, div#cert h5, div#rdn h5, div#vsl h5, div#wdw h5, div#cbip h5, div#ideas h5, div#cpm h5, div#fer h5 {padding-top:30px;}
+div#edup h5, div#tech h5, div#ent h5, div#adt h5, div#fose h5, div#irmco h5, div#ep h5, div#hhp h5, div#rm h5, div#rechina h5, div#mcp h5, div#tcp h5, #fea h5 {padding-top:20px;}
+/* #####  Biography Section  ##### */
+#bios h3 {
+	color: #82261B;
+	font-size:14px;
+	text-transform:none;
+}
+div.bioSection {
+background: #eee url(brandListingsTop.gif) no-repeat top left;
+position: relative;
+margin: 10px 0 0 0;
+padding-top: 10px;
+overflow: hidden;
+}
+.bioSection h3 {padding-top: 132px;}
+div#kcavallo, div#jnicholson, div#kgrady {height: 200px;}
+#nvitale h3 {background: transparent url(../assets/nealVitale.jpg) no-repeat 100% 14%;}
+#cmcdonagh h3 {background: transparent url(../assets/carmelMcdonagh.jpg) no-repeat 100% 20%;}
+#dmyers h3 {background: transparent url(../assets/davidMyers.jpg) no-repeat 100% 20%;}
+#aarmstrong h3 {background: transparent url(../assets/anneArmstrong.jpg) no-repeat 100% 14%;}
+#dblouin h3 {background: transparent url(../assets/dickBlouin.jpg) no-repeat 100% 14%;}
+/*#aschaffer h3 {background: transparent url(../assets/adamSchaffer.jpg) no-repeat 100% 14%;}*/
+#gstout h3 {background: transparent url(../assets/glenStout.jpg) no-repeat 100% 14%;}
+#rzbylut h3 {background: transparent url(../assets/richardZbylut.jpg) no-repeat 100% 20%;}
+#sstilwill h3 {background: transparent url(../assets/susanStilwill.jpg) no-repeat 100% 20%;}
+#rlindsay h3 {background: transparent url(../assets/russellLindsay.jpg) no-repeat 100% 20%;}
+#kcavallo h3 {background: transparent url(../assets/karenCavallo.jpg) no-repeat 100% 20%;}
+#mvalenti h3 {background: transparent url(../assets/mikeValenti.jpg) no-repeat 100% 20%;}
+#jklein h3 {background: transparent url(../assets/jeffKlein.jpg) no-repeat 100% 20%;}
+#hallain h3 {background: transparent url(../assets/henryAllain.jpg) no-repeat 100% 20%;}
+#wladuke h3 {background: transparent url(../assets/wendyLaduke.jpg) no-repeat 100% 20%;}
+#mpaniccia h3 {background: transparent url(../assets/maryAnnpaniccia.jpg) no-repeat 100% 20%;}
+#bburgin h3 {background: transparent url(../assets/billBurgin.jpg) no-repeat 100% 20%;}
+#elindgren h3 {background: transparent url(../assets/erikLindgren.jpg) no-repeat 100% 20%;}
+#ccoates h3 {background: transparent url(../assets/chrisCoates.jpg) no-repeat 100% 20%;}
+#rvitale h3 {background: transparent url(../assets/richardVitale.jpg) no-repeat 100% 20%;}
+#pames h3 {background: transparent url(../assets/patriciaAmes.jpg) no-repeat 100% 20%;}
+#alanger h3 {background: transparent url(../assets/abrahamLanger.jpg) no-repeat 100% 20%;}
+#dmashkuri h3 {background: transparent url(../assets/DougMashkuri.jpg) no-repeat 100% 20%;}
+#kgrady h3 {background: transparent url(../assets/KevinOgrady.jpg) no-repeat 100% 20%;}
+#dwheeler h3 {background: transparent url(../assets/DavidWheeler.jpg) no-repeat 100% 20%;}
+/* #####  Blank Picture  #####*/
+#gbridges h3 {
+background: transparent url(../assets/blankPic.gif) no-repeat 100% 20%;
+}
+.bioSection h3, 
+.bioSection h4, 
+.bioSection h5 {
+text-align: right;
+width: 258px;
+float: left;
+clear: left;
+}
+.bioSection h4 {
+	font-weight: bold;
+}
+.bioSection h5 {
+	margin: 0;
+	padding: 0;
+	}
+
+.bioSection p {
+margin-left: 290px;
+padding-bottom: 8px;
+line-height:1.5em;
+width: 520px;
+}
+/* ##### Mediums Styling ##### */
+div.mediums {
+position: relative;
+background: url(mediumsBottom.gif) no-repeat 40% 100%;
+padding-bottom: 10px;
+display: block;
+}
+#vsm div.mediums {
+margin-top: 10px;
+}
+#msdn div.mediums {
+margin-top: 25px;
+}
+#technet div.mediums {
+	margin-top: 45px;
+	}
+.mediums h4 {
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+color: #999;
+margin: .5em 0;
+}
+.mediums ul {
+margin: 0;
+list-style: none;
+}
+.mediums span {
+display: block;
+width: 100%;
+padding-top: 10px;
+background: url(mediumsTop.gif) no-repeat 40% 0%;
+overflow: hidden;
+}
+.mediums .events li span {
+	font-size: 90%;
+	color: #666;
+	background: none;
+	display: inline;
+	}
+.mag {
+float: left;
+width: 180px;
+padding-left: 15px;
+}
+#rm .mag {
+width: 220px;
+}
+.newsletter {
+float: left;
+width: 200px;
+}
+.website {
+float: left;
+width: 260px;
+}
+.events {
+float: left;
+width: 155px;
+}
+#footer {
+position: relative; 
+bottom: 0;
+width: 960px;
+margin: 0 auto 0 auto;
+color: #fff;
+background: url(wrapperBG.png) repeat-y 50% 0%;
+clear: both;
+font-family: "News Gothic MT",Arial,Helvetica,Verdana,sans-serif;
+font-size: 10px;
+}
+#footer img {padding-top: 10px;}
+#footer a:link, 
+#footer a:visited {
+color: #fff;
+text-decoration: none;
+}
+#footer a:hover {
+color: #fff;
+text-decoration: underline;
+}
+#footer a:active {
+color: #fff;
+text-decoration: none;
+}
+#footer p {
+padding:0pt 0pt 12px;
+text-align: center;
+}
+#footerContent {
+	background: #82261B;
+	margin: 0 10px 0 29px;
+	width: 900px;
+	padding: 20px 0;
+	}
+.backToTop {
+text-transform: uppercase;
+text-align: right;
+clear: both;
+}
+
+#bios .backToTop {
+text-transform: uppercase;
+/*text-align: right;*/
+/*background: #ffffff url(brandListingsBottom.gif) no-repeat 0% 114%;*/
+background: #ffffff url(brandListingsBottom.gif) repeat-x 0% 95%;
+padding-top: 30px;	
+}
+.backToTop a, 
+.backToTop a:link, 
+.backToTop a:visited, 
+.backToTop a:active {
+text-decoration: none;	
+color: #82261B;
+}
+.backToTop a:hover {
+	text-decoration: none;
+	color: #796D75;
+}
+div.mediums {display: none;}
+.show {display: block;}
+.hide {display: none;}
+body.home #home,
+body.aboutUs #aboutUs, 
+body.ourTeam #aboutUs, 
+body.markets #markets, 
+body.ourServices #ourServices, 
+body.careers #careers, 
+body.press #press, 
+body.award #press, 
+body.products #products {
+border-bottom:2px solid #82261B;
+}
+dt {padding-top: 20px;}
+#HQaddress h3{
+padding: 0 0 0 15px;
+font-size:16px;
+color:#82261B;
+}
+#HQaddress h3 span {
+	display: none;
+}
+body.press #intro, body.award #intro {padding-bottom: 40px;}
+body.award #newsArticles {margin-left: 85px;}
+#HQaddress p {padding-left: 17px;}
+div#addresses {
+	position: relative;
+	padding-left: 86px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.description {color: #8C8C8C;}
+#addresses h3 {
+	display: inline;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+#addresses p {
+}
+
+#addresses div {
+	float: left;
+	width: 390px;
+	padding-bottom: 15px;
+}
+
+/* Contact Us Form */
+#contact {
+	margin-left: 8px;
+}
+
+#contact legend {
+display:none;
+}
+
+#contact label {
+display:inline;
+float:left;
+margin:8px 7px 0pt 0pt;
+text-align:right;
+width:120px;
+}
+
+#contact input {
+margin:5px 0pt 0pt;
+}
+
+#contact textarea {
+height:200px;
+margin:5px 0pt 0pt;
+width:340px;
+}
+
+#contact input#btnSubmitContactInfo {
+clear:both;
+margin-left:120px;
+}
+#contact .text {width:200px;}
+#egov h3.InThisBrand, 
+#cpm h3.InThisBrand,
+#env h3.InThisBrand {
+background: url(NWE_icon.gif) no-repeat 40px 38px;
+}
+#egov .mag, 
+#cpm .mag,
+#env .mag {
+display: none;
+}
+#egov .website {width: 200px;}
+#egov .newsletter, #cpm .newsletter, #env .newsletter {padding-left: 15px;}
+#cio h3.InThisBrand, 
+#its h3.InThisBrand,
+#remacau h3.InThisBrand,
+#reindia h3.InThisBrand,
+#reciclamais h3.InThisBrand,
+#fed100 h3.InThisBrand,
+#wtss h3.InThisBrand {
+background: url(E_icon.gif) no-repeat 84px 38px;
+}
+#remacau .mag, 
+#remacau .newsletter, 
+#remacau .website, 
+#cio .mag, 
+#cio .newsletter, 
+#cio .website, 
+#its .mag, 
+#its .newsletter, 
+#its .website,
+#fed100 .mag,
+#fed100 .newsletter, 
+#fed100 .website,
+#wtss .mag,
+#wtss .newsletter, 
+#wtss .website,
+#reciclamais .mag,
+#reciclamais .newsletter,
+#reciclamais .website,
+#reindia .mag,
+#reindia .newsletter,
+#reindia .website {
+display:none;
+}
+#remacau .mediums ul.events,
+#cio .mediums ul.events,
+#its .mediums ul.events,
+#fed100 .mediums ul.events,
+#wtss .mediums ul.events,
+#reciclamais .mediums ul.events,
+#reindia .mediums ul.events
+ {
+padding-left: 15px;
+}
+#wexp .mediums ul.events,
+#reciclamais .mediums ul.events,
+#rechina .mediums ul.events,
+#reindia .mediums ul.events,
+#remacau .mediums ul.events,
+#rechina .mediums ul.events,
+#rechina .mediums ul.events,
+#rechina .mediums ul.events {
+	width: 300px;
+}
+
+
+
+
+#fose h3.InThisBrand, 
+#irmco h3.InThisBrand, 
+#ideas h3.InThisBrand, 
+#fetc h3.InThisBrand, 
+#tech h3.InThisBrand, 
+#wdw h3.InThisBrand, 
+#vsl h3.InThisBrand, 
+#ea h3.InThisBrand, 
+#rchina h3.InThisBrand, 
+#rev h3.InThisBrand, 
+#wexp h3.InThisBrand, 
+#wb h3.InThisBrand,
+#rechina h3.InThisBrand,
+#govsec h3.InThisBrand,
+#gte h3.InThisBrand,
+#usl h3.InThisBrand,
+#ready h3.InThisBrand,
+#cpm h3.InThisBrand,
+#reeurope h3.InThisBrand,
+#fetc h3.InThisBrand,
+#ilc h3.InThisBrand {
+background: url(WE_icon.gif) no-repeat 50% 60%;
+}
+#fose .mag, 
+#fose .newsletter,
+#irmco .mag, 
+#irmco .newsletter,
+#ideas .mag,
+#ideas .newsletter,
+#fetc .mag,
+#fetc .newsletter,
+#tech .mag,
+#tech .newsletter,
+#wdw .mag,
+#wdw .newsletter,
+#vsl .mag,
+#vsl .newsletter,
+#ilc .mag,
+#ilc .newsletter,
+#ea .mag,
+#ea .newsletter,
+#rchina .mag,
+#rchina .newsletter,
+#rev .mag,
+#rev .newsletter,
+#wexp .mag,
+#wexp .newsletter,
+#wb .mag,
+#wb .newsletter,
+#govsec .mag,
+#govsec .newsletter,
+#gte .mag,
+#gte .newsletter,
+#usl .mag,
+#usl .newsletter,
+#ready .mag,
+#ready .newsletter,
+#rechina .mag,
+#rechina .newsletter,
+#reeurope .mag,
+#reeurope .newsletter {
+display:none;
+}
+
+#ct .mag{width: 140px;}
+#ct .events{width: 310px;}
+#ct .website{width: 160px;}
+#ct .newsletter{width: 130px;}
+
+#fetc .website, #ilc .website{width: 160px;}
+#fetc .events{width: 220px;}
+#ilc .events{width: 185px;}
+#fose .mediums ul.website,
+#irmco .mediums ul.website,
+#ideas .mediums ul.website,
+#fetc .mediums ul.website,
+#ilc .mediums ul.website,
+#tech .mediums ul.website,
+#wdw .mediums ul.website,
+#vsl .mediums ul.website,
+#ea .mediums ul.website,
+#rchina .mediums ul.website,
+#rev .mediums ul.website,
+#wexp .mediums ul.website,
+#wb .mediums ul.website,
+#govsec .mediums ul.website,
+#gte .mediums ul.website,
+#usl .mediums ul.website,
+#ready .mediums ul.website,
+#cpm .mediums ul.website,
+#reeurope .mediums ul.website,
+#rechina .mediums ul.website {
+padding-left: 15px;
+}
+#ecp h3.InThisBrand,
+#edu h3.InThisBrand, 
+#fer h3.InThisBrand, 
+#ent h3.InThisBrand, 
+#tcp h3.InThisBrand, 
+#mcp h3.InThisBrand, 
+#cert h3.InThisBrand, 
+#adt h3.InThisBrand, 
+#es h3.InThisBrand,
+#wwn h3.InThisBrand,
+#fed h3.InThisBrand {
+background: url(NW_icon.gif) no-repeat 50% 60%;
+}
+#ecp .mag,
+#ecp .events,
+#edu .mag,
+#edu .events,
+#ent .mag,
+#ent .events,
+#tcp .mag,
+#tcp .events,
+#mcp .mag,
+#mcp .events,
+#cert .mag,
+#cert .events,
+#adt .mag,
+#adt .events,
+#es .mag,
+#es .events,
+#fed .mag,
+#fed .events,
+#wwn .mag,
+#rcp .events,
+#wwn .events {
+display: none;
+}
+#ecp .newsletter,
+#edu .newsletter, 
+#ent .newsletter, 
+#tcp .newsletter, 
+#mcp .newsletter, 
+#cert .newsletter, 
+#adt .newsletter, 
+#es .newsletter, 
+#fed .newsletter,
+#wwn .newsletter {
+	padding-left: 15px;
+}
+#cpm h3.InThisBrand,  
+#sec h3.InThisBrand,  
+#ep h3.InThisBrand,  
+#red h3.InThisBrand,  
+#hhp h3.InThisBrand, 
+#mm h3.InThisBrand {
+background: url(PNW_icon.gif) no-repeat 50% 80%;
+padding-bottom:50px;
+}
+#rm h3.InThisBrand {
+background: url(P_icon.gif) no-repeat 35% 60%;
+padding-bottom:50px;
+}
+#sec h3.InThisBrand {
+background: url(NME_icons.gif) no-repeat 50% 80%;
+padding-bottom:50px;
+}
+#ncs h3.InThisBrand {
+background: url(NW_icon.gif) no-repeat 50% 60%;
+padding-bottom:50px;
+}
+#rdn h3.InThisBrand{
+background: url(W_icon.gif) no-repeat 50% 60%;
+padding-bottom:50px;
+}
+#msdn h3.InThisBrand{
+background: url(PNW_icon.gif) no-repeat 50% 60%;
+padding-bottom:50px;
+}
+
+
+
+/*#sec .events,*/
+#ep .events,
+#red .events,
+#rdn .events,
+#hhp .events,
+#mm .events,
+#rm .events {
+visibility:hidden;
+}
+#cbip h3.InThisBrand, #edup h3.InThisBrand {background: url(W_icon.gif) no-repeat 84px 38px;}
+#cbip .mag,
+#cbip .newsletter,
+#cbip .events,
+#edup .mag,
+#edup .newsletter,
+#edup .events{
+display:none;
+}
+#cbip .website, #edup .website{margin-left: 15px;}
+
+#vsm h3.InThisBrand {
+	background: url(PNW_icon.gif) no-repeat 50% 60%;
+	padding-bottom: 50px;
+}
+/*#vsm .newsletter,*/
+#vsm .events{
+	visibility:hidden;
+}
+#vrm h3.InThisBrand {
+	background: url(PW_icon.gif) no-repeat 50% 60%;
+}
+/*#vrm .newsletter,*/
+#vrm .events{
+	visibility:hidden;
+}
+#technet h3.InThisBrand {
+	background: url(NW_icon.gif) no-repeat 50% 60%;
+}
+
+#fea h3.InThisBrand {
+	background: url(P_icon.gif) no-repeat 50% 60%;
+}
+#fea .newsletter,
+#fea .events,
+#fea .website {
+visibility: hidden;
+}
+/* ###### Media Kit Form Styling ###### */
+#mediaKit {margin: 20px 30px;}
+#mediaKit div label {
+clear:left;
+float:left;
+margin:5px 0pt 0pt;
+width:120px;
+}
+#mediaKit #chkProducts label {
+margin-top:5px;
+padding-left:5px;
+}
+#mediaKit input {vertical-align:-30%;}
+#mediaKit div input {margin:0pt 0pt 5px;}
+#mediaKit dl {margin:11px 0pt;}
+#mediaKit dd {margin:0pt 0pt 0pt 40px;}
+#mediaSubmit {
+margin:0pt auto;
+text-align:center;
+}
+/* ###### Home Page Specific ###### */
+#homeSplash {
+background: #FFFFFF url(homeSplash.jpg) no-repeat 6px 0;
+width: 855px;
+height: 191px;
+margin-left: 55px;
+position: relative;
+text-indent: -9999px;
+padding-bottom: 30px;
+}
+#homeSplash .industry a {
+display: block;
+position: absolute;
+left: 11px;
+top: 6px;
+width: 194px;
+height: 165px;
+}
+#homeSplash .itComputing a {
+display: block;
+position: absolute;
+left: 215px;
+top: 6px;
+width: 194px;
+height: 165px;
+}
+#homeSplash .equipment a {
+display: block;
+position: absolute;
+left: 419px;
+top: 6px;
+width: 193px;
+height: 165px;
+}
+#homeSplash .hme a {
+display: block;
+position: absolute;
+left: 622px;
+top: 6px;
+width: 228px;
+height: 165px;
+}
+#content {margin: 10px 69px;}
+body.aboutUs #pContent img {
+border:1px solid #000000;
+float:left;
+margin: 3px 15px;
+}
+body.home #content {
+/*background: url(extraContent.gif) no-repeat top right; */
+height: 200px;
+}
+.home #pContent {
+background: none;
+float: none;
+position: absolute;
+top:0;
+left: 69px;
+padding-bottom: 70px;
+}
+div#extraContent {
+	color: white;
+	float: left;
+	background: #333 url(introBottom.gif) no-repeat right bottom;
+	height: 192px;
+	width: 227px;
+	margin-top: 3px;
+	}
+#news {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#extraContent #news li {
+	padding: 0 0 5px 13px;
+	margin-left: 0 12px 0 21px;
+	line-height: 1em;
+}
+*+ html #extraContent #news li {
+	zoom: 1;
+}
+#news .more {
+	position: absolute;
+	top: 170px;
+	right: 18px;
+}
+#events .more {
+	position: absolute;
+	bottom: 10px;
+	right: 18px;
+}
+#extraContent h2, #events h2 {
+font-size: 18px;
+text-transform: uppercase;
+padding: 8px 0 6px 20px;
+background: #333 url("topSNav.gif") no-repeat top left;
+}
+
+/*#extraContent ul {
+	list-style-type: square;
+	margin-left: 33px;
+	margin-right: 12px;
+}*/
+#extraContent ul li, #events ul li {
+	font-size: 11px;
+	background: #333 url("bullet.gif") no-repeat 0 6px;
+	margin-left: 21px;
+	padding-left: 13px;
+	margin-right: 12px;
+}
+#extraContent ul li, #events ul li {padding-bottom: .6em;}
+#extraContent a {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#extraContent a:link, #extraContent a:visited, #events a:link, #events a:visited {
+color: white;
+text-decoration: none;
+}
+#extraContent a:hover, #events a:hover {
+color: white;
+text-decoration: underline;
+}
+#extraContent a:active, #events a:active {
+color: white;
+text-decoration: none;
+}
+a.more {
+	margin-left: 106px;
+	color: #FFFFFF;
+}
+.all #wrapper #content {
+background: none;
+margin: 30px 69px 0 69px;
+position: relative;
+}
+.all .sector li {
+	padding: 15px  0 15px 36px;
+	width: 230px;
+}
+.all .gov {
+	background: transparent url("thumbnails/government_rounded.jpg") no-repeat 0% 50%;
+}
+.all .edu {
+	background: transparent url("thumbnails/education_rounded.jpg") no-repeat 0% 50%;
+}
+.all .sec {
+	background: transparent url("thumbnails/security_rounded.jpg") no-repeat 0% 50%;
+}
+.all .hea {
+	background: transparent url("thumbnails/healthsafety_rounded.jpg") no-repeat 0% 50%;
+}
+.all .env {
+	background: transparent url("thumbnails/environmental_rounded.jpg") no-repeat 0% 50%;
+}
+.all .redm {
+	background: transparent url("thumbnails/redmond_rounded.jpg") no-repeat 0% 50%;
+}
+.all .btg {
+	background: transparent url("thumbnails/business_technologies_rounded.jpg") no-repeat 0% 50%;
+}
+.all .equ {
+	background: transparent url("thumbnails/office_equipment_rounded.jpg") no-repeat 0% 50%;
+}
+.all .tic {
+	background: transparent url("thumbnails/tic_rounded.jpg") no-repeat 0% 50%;
+}
+.all .hom {
+	background: transparent url("thumbnails/homehealth_rounded.jpg") no-repeat 0% 50%;
+}
+#homeWrap {
+	position: relative;
+	margin: 40px 0;
+	overflow: hidden;
+	height: 550px;
+}
+#events {
+	position: absolute;
+	right: 69px;
+	top: 0;
+	width: 227px;
+	/*height: 335px;*/
+	height: 490px;
+	background: #333 url("introBottom.gif") no-repeat bottom right;
+	color: #ccc;
+}
+#events img {
+	margin: 0 0 20px 20px;
+}
+body>#events {
+	bottom: 29px;
+}
+#events ul li a {
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+}
+#events h2, #events ul li a {color:#FFFFFF;}
+div.sector {
+float: left;
+padding-bottom: 30px;
+height: 100px;
+}
+.all div.sector {
+	width: 270px;
+	height: 100%;
+}
+.sector h3 {
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	letter-spacing: .8px;
+}
+.sector li {
+	margin-bottom: 1px;
+}
+.all #industryPub {
+	padding-left: 12px;
+}
+.all #itComput {
+	position: absolute;
+	left: 265px;
+}
+.all #officeEquip {
+	position: absolute;
+	left: 490px;
+}
+.all #HomeMed {
+	position: absolute;
+	left: 490px;
+	top: 120px;
+}
+.all #content h2 {font-size: 2em;}
+/*temp*/
+.all2 #industryPub {
+	padding-left: 12px;
+}
+.all2 div.sector {
+	height: 100%;
+	width: 270px;
+}
+.all2 #wrapper #content {
+background: none;
+margin: 30px 69px 0 69px;
+position: relative;
+}
+.all2 .sector dl {width: 230px; margin-left: 0;}
+.all2 .sector dt {
+	padding: 12px  0 12px 36px;
+	font-weight: normal;
+}
+.all2 .sector dt a {color: #82261B;}
+.all2 .sector dd {padding-bottom: 14px;}
+.all2 .gov {
+	background: transparent url("thumbnails/government_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .edu {
+	background: transparent url("thumbnails/education_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .sec {
+	background: transparent url("thumbnails/security_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .hea {
+	background: transparent url("thumbnails/healthsafety_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .env {
+	background: transparent url("thumbnails/environmental_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .redm {
+	background: transparent url("thumbnails/redmond_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .btg {
+	background: transparent url("thumbnails/business_technologies_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .equ {
+	background: transparent url("thumbnails/office_equipment_rounded.jpg") no-repeat 0% 50%;
+}
+.all2 .hom {
+	background: transparent url("thumbnails/homehealth_rounded.jpg") no-repeat 0% 50%;
+}
+
+
+.press #pContent h3 {
+	font-size: 14px;
+	color: #050216;
+}
+.press #pContent h3.subheader {
+	text-transform: none;
+	font-style: italic;
+}
+.press #pContent .newsArticle, .award #pContent .award {
+	padding: 0 20px 0 15px;
+	font-size: 13px;
+}
+.press #pContent ul {
+	float: none;
+	margin-left: 15px;
+	list-style: none;
+}
+.press #pContent li{
+	float: none;
+	width: 525px;
+	background: url(bullet1.gif) no-repeat 0 6px;
+	padding-left: 12px; 
+}
+.press #pContent ul.list {
+	margin: 5px 0 15px 20px;
+	padding: 0;
+	color: #333;
+}
+.press #pContent ul.list li {
+	margin: 0 0 3px;
+	padding: 0 0 0 12px;
+}
+
+.press #pContent img.img-press {
+	margin: 0 10px 5px 0;
+	padding: 0;
+	float: left;
+	}
+
+
+
+
+.press #pContent ul li p{
+	width: 500px;
+}
+#newsArticles {
+	margin-left: 69px;
+	margin-top: 15px;
+}
+#newsArticles .newsArticle, #newsArticles li {
+	padding-left: 16px;
+	padding-bottom: 10px;
+	width: 580px;
+	border-bottom: 1px #CCCCCC solid;
+    margin-bottom: 12px;
+}
+.newsArticle a{
+	font-size: 14px;
+	color: #82261B;
+}
+#newsArticles li a {
+	color: #82261B;
+}
+.award #newsArticles h3 {
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.award #newsArticles div {
+	padding-bottom: 10px;
+	width: 580px;
+}
+.year h2 {
+	font-size: 16px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	color: #82261B;
+}
+.careers #pContent p a:link, .careers #pContent p a:visited, .careers #pContent p a:hover, .careers #pContent p a:active {
+	color: #82261B;
+}
+.ourServices #pContent ul,
+.event #pContent ul {
+	display: list-item;
+	float: none;
+	padding: 0 0 10px 60px;	
+}
+.ourServices #pContent ul li,
+.event #pContent ul li {
+	display: list-item;
+	float: none;
+	padding-bottom: 5px;
+	list-style: disc;
+	width: auto;
+}
+.event #pContent ul li {
+	margin-bottom: 8px;
+
+	}
+* html .event #pContent ul li {
+	padding: 0 0 5px 10px;
+	list-style: none;
+	background: url(bullet1.gif) no-repeat 0 4px;
+	}
+
+
+.ourServices dl {
+	margin: 0 0 10px 20px;
+}
+.ourServices dt a, .ourServices dd a {
+	color: #82261B;
+}
+.ourServices dd {
+	margin: 0 0 2px 10px;
+}
+.product img {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 3px;
+	background: #f1f1f1;
+}
+.ourServices .product h3 {
+display:block; 
+clear:both;
+font-size:1.6em;
+padding:.2em 0;
+}
+.ourServices #content {
+	margin-top: 10px;
+	overflow: hidden;
+}
+abbr {
+	border: none;
+}
+.all h2 a:link, .all h2 a:visited, .all h2 a:hover, .all h2 a:active {
+	color: #000;
+	text-decoration: none;
+}
+/* #####   Privacy Page  ##### */
+body.privacy #content h4 {
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 5px;
+padding-top: 20px;
+color: #82261B;
+}
+body.privacy #content p {margin-bottom: 15px;}
+body.privacy #content ul {
+padding-left: 30px;
+list-style-type: disc;
+margin-bottom: 15px;
+}
+body.privacy #content strong {font-weight: bold;}
+body.privacy #content a {color: #82261B;}
+#pContent .date {
+color:#666;
+font-size: 10px;
+}
+#pContent .newsArticle .date {
+margin-left:-12px;
+padding-top: 4px;
+}
+.date {
+color:#666;
+font-size:10px;
+}
+li .date {
+padding-top: 4px;
+padding-bottom: 4px;
+}
+.newsArticle .date {
+padding: 4px 0;
+}
+strong {color: #82261B;}
+.press #pContent strong {color: #333333; font-weight: bold;}
+/* #####  Locations Page  ##### */
+#pContent #HQaddress p {
+padding: 0 0 1px 16px;
+}
+.telecommunications p {padding-bottom: .2em;}
+dt {
+font-weight:bold;
+margin-bottom: 8px
+}
+dl {margin: 0 0 4px 20px;}
+#sNav .back {
+background: #333 url(back.gif) no-repeat 0 4px;
+padding-left: 16px;
+width:123px;
+margin:20px 0 20px 80px; 
+}
+em {font-style:italic;font-family: Arial, Helvetica, sans-serif;}
+#ohs .mediums ul.newsletter {width: 250px;}
+#ohs .mediums ul.mag {width: 240px;}
+#ohs .mediums ul.website {width: 140px;}
+#fer .mag,
+#fer .events {display:none;}
+#fer .mediums ul.newsletter {padding-left: 15px;}
+#fed .mediums ul.mag {display: none;}
+#fed .mediums ul.newsletter {padding-left: 15px;}
+#fed .mediums ul.website {padding-left: 20px;}
+#usl .mediums ul.mag,
+#usl .mediums ul.newsletter, 
+#govsec .mediums ul.mag,
+#govsec .mediums ul.newsletter {
+display: none;
+}
+#usl .mediums ul.website,
+#govsec .mediums ul.website {
+width: 170px;
+}
+#gte .mediums ul.website {
+	width: 220px;
+	}
+#gte .mediums .events {
+	width: 220px;
+	}
+#footerShadow {
+background: transparent url(FooterShadow.png) no-repeat 58% 40%;
+width:919px;
+height:10px;
+margin: 0 auto;
+}
+#jobs {margin: 20px 0 0 79px;}
+.job {
+	border-bottom: 1px #CCCCCC solid;
+	padding: 0 0 12px 12px;
+    margin-bottom: 12px;
+	width: 600px;
+}
+.job h3 {padding-bottom: 4px; font-size: 13px;}
+.job h3 a {text-decoration: none;}
+.job h3 a:hover {text-decoration: underline;}
+#pContent p a.frontPage{
+display: block;
+color: #82261B;
+padding-top: 4px;
+width: 370px;
+text-align: center;
+}
+.press h4 {
+	padding-left: 12px;
+	color: #82261B;
+}
+#flashcontent {
+	margin: -1px 0 40px;
+	float: left;
+}
+.bioSection p.download {
+	position: absolute; 
+	left:-246px; 
+	top:102px;
+	color: #666;
+	width: 110px;
+	padding: 0;
+	font-size: .9em;
+}
+.bioSection p.download a {
+	text-indent: -9999px;
+	width: 99px;
+	height: 116px;
+	display: block;
+	position: absolute;
+	left: 110px;
+	top: -65px;
+	outline: 0;
+}
+.clearme {
+	clear: both;
+}
+.pressLink {
+		display: block;
+}
+#pContent p.pressLink a:link, #pContent p.pressLink a:visited {
+	float: right;
+	color: #82261B;
+	margin-right: 10px;
+}
+.quicknav {margin-left: 12px;}
+.contact {margin-bottom: 10px;}
+.mediakit #pContent img {
+	float: left;
+	padding: 2px 12px 2px 0;
+}
+.mediakit #pContent .image {float: left;}
+dt a {color: #222;}
+.mediakit dt {margin-bottom: 8px;}
+.mediakit dd {margin-bottom: 4px;}
+.mediakit #content li {margin-bottom: 4px;}
+.mediakit #content h3 {
+	color: #000;
+	margin-top:8px;
+}
+.listRental #content, .reprints #content, .adspecs #content {margin-top: 30px;}
+.listRental #content h3, .adspecs #content h3 {padding-bottom: 4px; font-size: 14px;margin-left:12px;}
+.listRental #content p, .reprints #content p, .adspecs #content p {margin: 0 0 12px 12px;}
+.reprints #content ul, .adspecs #content ul {margin: 0 0 12px 30px; list-style-type: disc;list-style-position:outside;}
+.reprints #content .col2, .adspecs #content .col2 {margin-left: 270px;}
+.reprints #content .newCol {margin-top: -100px;}
+.adspecs #content .newCol {margin-top: -250px;}
+.reprints #content li, .adspecs #content li {margin: 0 0 4px 30px;}
+.reprints #content p, .listRental #content p {width: 580px;}
+
+
+.adspecs #content ul.multicolumn {margin: 0 0 0 15px;padding: 0;float: left;width: 250px; /*list-style-position:outside;*/}
+.adspecs #content li ul {margin: 3px 0 5px 15px;}
+.adspecs #content li li {margin: 0 0 4px;list-style: circle;}
+.adspecs #content .col2 {margin: 0;}
+/** html .adspecs #content .newCol {margin-top: -250px;}*/
+
+.line {
+	padding-bottom: 20px; 
+	border-bottom: 1px solid #CCC;
+	width: 580px;
+}
+#publications {
+	width: 545px;
+	float: left;
+}
+#online {
+	float: left;
+	width: 276px;
+}
+.careers #jobs h2 {font-size: 16px;text-transform: uppercase;margin:20px 0 8px;font-weight: bold;}
+.cityState {margin-top: 8px;}
+#env .website {width:140px;}
+#env .events {width:220px;}
+
+.mailForm form h4 {font-weight:bold;}
+.mailForm #pContent form li {
+	float:none;
+	padding-bottom:0.5em;
+}
+.mailForm #windowsNetworking, .mailForm #busTech {margin-bottom:60px;}
+.mailForm #office {margin-bottom: 90px;}
+.mailForm #pContent .alert {
+	width: auto;
+	border: solid 1px #CCC;
+	margin: 0 15px 15px 15px;
+	padding:15px;
+}
+.mailForm #btnSubmitContactInfo {
+	margin: 10px auto;
+	text-align:center;
+	display:block;
+}
+.mailForm form div{
+clear:left;
+display:block;
+margin:5px 0pt 0pt;
+padding:1px 3px;
+width: 374px;
+}
+.mailForm .required label{
+	display:block;
+	float:left;
+	margin:0pt 0pt 5px;
+	padding:3px 5px;
+	text-align:right;
+	width: 150px;
+}
+form div input.text{
+margin: 0;
+padding: 1px 3px;
+width: 200px;
+}
+.mailForm form{
+width: 570px;
+margin-left: 12px;
+}
+.mailForm #pContent p{
+width:auto;
+}
+.mailForm #step1 li{
+	display:block;
+	margin:auto;
+	width:400px;
+}
+.mailForm label {
+margin-right:5px;
+}
+.mailForm legend {
+color:#000000;
+font-size:1.5em;
+font-weight:normal;
+margin:0pt;
+padding:0pt 8px 10px 12px;
+text-transform:uppercase;
+}
+.mailForm fieldset{
+border-color:#333;
+border-style:solid none none;
+border-width:1px 0pt 0pt;
+clear:both;
+font-size:100%;
+margin:0pt;
+padding:10px;
+}
+.mailForm form ul li input{margin-right: 5px;}
+.groupList #content h2, .groupList #content h5, .groupList #content ul {
+	margin-left: 12px;
+}
+.groupList #content h2 {
+	color: #82261B;
+	font-size: 16px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.groupList #content h5 {
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+.groupList #content ul {
+	margin-bottom: 10px;
+}
+.mediakit .product {
+	padding: 20px 0;
+}
+
+/* #####   Newsletter Template Page  ##### */
+.nltemplate #content {
+	width: 595px;
+}
+.nltemplate p {
+	margin-bottom: 15px;
+}
+.nltemplate h2 {
+	color:#82261B;
+	font-size:2em;
+	margin: 0;
+	padding: 8px 0 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.nltemplate h3 {
+	margin-bottom: 12px;
+}
+body.nltemplate #content h4 {
+color:#82261B;
+font-size:14px;
+font-weight:bold;
+margin-bottom:5px;
+padding-top:20px;
+}
+.nltemplate b {
+	font-weight: bold;
+	color: #333;
+}
+.nltemplate #content img {
+float:left;
+padding:0 8px 4px 0;
+}
+
+/* benefits
+------------------------------*/
+div#benefits {
+	margin: 20px 0 0 79px;
+	padding: 0 0 12px 12px;
+	width: 600px;
+	border-bottom: 1px solid #CCC;
+	}
+div#benefits p {
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 100%;
+	}
+div#benefits p.note {
+	font-size: 90%;
+	}
+div#benefits h3 {
+	margin: 20px 0 5px;
+	padding: 0;
+	font-size: 100%;
+	}
+div#benefits h4 {
+	margin: 5px 0;
+	padding: 0;
+	font-size: 120%;
+	}
+div#benefits ul {
+	margin: 0 0 10px 15px;
+	padding: 0;
+	}
+div#benefits li {
+	margin: 0;
+	padding: 0;
+	list-style: disc;
+}
+
+
+/* events page
+-----------------------------*/
+.event #pContent ul.anchornav {
+	margin: 0 auto 10px;
+	padding: 0;
+	text-align: center;
+	}
+.event #pContent ul.anchornav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+	font-size: 90%;
+	font-weight: normal;
+	background: none;
+}
+.event #pContent ul.anchornav a {
+	margin: 0;
+	padding: 0 3px;
+}
+
+/* events page
+-----------------------------*/
+#flash1 {
+	margin: 0;
+	padding: 0;
+	}
+
+/* forms
+-----------------------------*/
+#theform {
+	margin: 0;
+	padding: 0;
+	display: none;
+	}
+#themessage {
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 500px;
+	background: url(pContentTop.gif) no-repeat;
+	padding: 8px 0 15px 12px;
+	}

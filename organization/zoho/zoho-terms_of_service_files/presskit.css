@@ -1,0 +1,115 @@
+/* zohostatic js end */	
+img{
+border:none;
+}
+.topline{
+border-top:2px solid #5bcbff;
+margin-top:5px;
+}
+.middlehline{
+border-left:1px solid #96deff;
+}
+ul#leftmenu{
+list-style:none;
+font:bold 12px verdana;
+color:#007acf;
+text-decoration:none;
+margin:25px 0 0 0;
+padding:0;
+}
+ul#leftmenu li{
+padding:8px 0 8px 10px;
+}
+ul#leftmenu li a{
+text-decoration:none;
+color:#007acf;
+}
+ul#leftmenu li a:hover{
+color:#FF8500;
+text-decoration:underline;
+}
+ul#leftmenu li.selected{
+background:#96deff;
+color:#000;
+}
+.pagetitle{
+background:#5bcbff;
+font:bold 13px verdana;
+color:#000;
+padding:3px 0 5px 10px;
+}
+tr.tbtitle th{
+font:bold 11px verdana;
+background:#cdefff;
+line-height:20px;
+padding-left:20px;
+text-align:left;
+}
+tr.tbrow td{
+font:normal 11px verdana;
+background:#fff;
+line-height:28px;
+padding-left:20px;
+text-align:left;
+border-bottom:1px solid #C7EDFF;
+}
+tr.tbrow td a{
+color:#007acf;
+}
+tr.newshead td{
+background:#cdefff;
+font:bold 11px verdana;
+line-height:25px;
+padding-left:10px;
+}
+tr.newshead td a{
+color:#000;
+}
+tr.newscont td{
+background:#FFF;
+font:normal 11px verdana;
+padding:10px;
+}
+.description-event{
+font:normal 13px verdana;
+padding-left:20px;
+padding-top:30px;
+}
+ul#events{
+padding:20px 0 0 100px;
+list-style:none;
+}
+ul#events li{
+background:url(http://js.zohostatic.com/forums/v1/images/bullet2.gif) no-repeat;
+background-position: 0 .7em;
+padding-left: 1.3em;
+line-height:25px;
+}
+ul#events li a{
+color:#007acf;
+}
+tr.logokit td{
+text-align:center;
+padding:5px;
+font:bold 11px verdana;
+}
+tr.logokit1 td{
+text-align:center;
+padding:5px;
+border-top:1px dotted #CCCCCC;
+font:normal 11px verdana;
+}
+
+/* zohostatic js */
+<script>
+
+var imgURL='js.zohostatic.com/forums/v1/';
+
+if(window.location.href.stratswith('https')
+          imgURL = "https://www.zoho.com/css/zohostyle1.css"+ imgURL;
+          // lets say for eg, the cssfile name be stylehttps. so add css link in runtime with all background-img urls in https.
+else
+          imgURL = "http://www.zoho.com/css/zohostyle.css"+ imgURL;
+          // lets say for eg, the cssfile name be stylehttp. so add css link in runtime with all background-img urls in http.
+
+</script>

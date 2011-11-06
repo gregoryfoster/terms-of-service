@@ -1,0 +1,110 @@
+#navigation {
+	float: left;
+	background: #00529b;
+	font-size: 93%;
+	line-height: normal;
+	padding-top: 10px;
+	border-bottom: 5px solid #bed9ec;
+	margin-bottom: 10px;
+	width: 760px;
+}
+
+#navigation ul {
+	margin: 0;
+	padding-left:30px;
+	list-style: none;
+	width: 740px;
+}
+
+#navigation li {
+	float: left;
+	background: url("/cov6/images/menuleft.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 5px;
+	white-space: nowrap;
+}
+
+#navigation a {
+	float: left;
+	display: block;
+	width: .1em;
+	background: url("/cov6/images/menuright.gif") no-repeat right top;
+	padding: 9px 16px 5px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#navigation>ul a {
+	width: auto;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#navigation a {
+	float: none;
+}
+
+/* End IE5-Mac hack */
+#navigation a:hover {
+	color: #333;
+}
+
+#navigation li.selected {
+	background-position: 0 -42px;
+	border-width: 0;
+}
+
+#navigation li.selected a {
+	background-position: 100% -42px;
+	padding-bottom: 5px;
+	color: #00529b;
+}
+
+#navigation li:hover,#header li:hover a {
+	background-position: 0% -42px;
+	color: #333;
+}
+
+#navigation li:hover a {
+	background-position: 100% -42px;
+}
+
+.menuList li.selected ul.submenu {
+	background: #bed9ec;
+	display: inline;
+	left: -10px;
+	position: absolute;
+}
+
+.menuList li.selected ul.submenu a {
+	background: none !important;
+	color: #00529b !important;
+	font-size: .98em;
+	font-weight: bold;
+	line-height: 8px;
+	margin: 0 !important;
+	text-decoration: none;
+	padding-left: 15px !important;
+	padding-right: 5px !important;
+	width: auto !important;
+}
+
+.menuList li.selected ul.submenu a.selected {
+	background: none;
+	color: #333 !important;
+}
+
+.menuList li.selected ul.submenu a:hover {
+	color: #333 !important;
+}
+
+.menuList ul.submenu {
+	display: none;
+}
+
+.menuList li.selected ul.submenu li {
+	background: none !important;
+	border-bottom: 0 !important;
+	white-space: nowrap;
+	padding: 0;
+}

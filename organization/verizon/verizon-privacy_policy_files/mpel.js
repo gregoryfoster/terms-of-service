@@ -1,0 +1,2 @@
+MpElDs={'espanol.verizon.com':'es','www22.verizon.com':'en','www98.verizon.com':'en'};
+if(!new RegExp('MP_LANG='+MpElDs[location.host]).test(document.cookie)){    MpElD='//espanol.verizon.com';	MpL=navigator.browserLanguage;	if(!MpL)MpL=navigator.language;    document.write(unescape("%3Cscript src='"+MpElD+"/enes/mpel.js?href="+escape(location.href)+"&ref="+escape(document.referrer)+"&lang="+MpL+"' type='text/javascript'%3E%3C/script%3E"));}

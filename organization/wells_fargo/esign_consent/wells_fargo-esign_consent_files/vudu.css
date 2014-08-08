@@ -1,0 +1,341 @@
+body{color:#000;background-color:#FFF;margin:0 4px;font-style:normal;font-size:75%;}
+*{font-family:arial,helvetica,sans-serif;}
+a,a:link,a:visited{color:#369;}
+a:hover{color:#4986FF;}
+a[name]{color:#000;}
+img{border-style:none;}
+.linkedIcon{margin-right:.3em;margin-bottom:-.1em;}
+h1{font-size:158%;padding:0;margin:0 0 15px 0;}
+h1.pageHeading{font-size:158%;color:black;font-weight:bold;padding:0;margin:0;clear:both;}
+h2{font-size:117%;padding:0;margin:15px 0 9px 0;}
+h2 span{font-weight:normal;}
+h3.subhead{margin:1em 0 5px 0;color:#000;}
+h3{font-size:117%;color:#666;padding:0;margin:1em 0 0 0;}
+h3 span{font-weight:normal;}
+h2 a{font-weight:normal;}
+.important{text-transform:uppercase;}
+a.negative:link,a.negative:visited,a.negative:active{color:#C00;}
+a.negative:hover{color:#F33;}
+.alert{color:#C00;margin:3px 0 0 0;padding:0;}
+.alert boldText paragraphLike{margin:1em auto 1em auto;}
+.normalText{font-weight:normal;}
+.alert a{color:#c00;}
+.alert a:hover{color:#f33;}
+.notFdic{border:1px solid #999;padding:1px 3px;margin:1px;float:left;}
+div.clearleft{clear:left;line-height:0;height:0;}
+div.clearright{clear:right;line-height:0;height:0;}
+div.clearboth{clear:both;line-height:0;height:0;}
+.smaller-text{font-size:117%;}
+div#globalerror{color:#C00;}
+form{font-weight:normal;padding:0;margin:5px 0;}
+.label{color:#666;font-size:92%;font-weight:bold;}
+.viewSelect{padding-bottom:8px;margin-bottom:0;}
+.firstSelect{padding-top:5px;}
+p#accountSelector{margin-top:0;}
+select,input,textarea{font-size:92%;margin:0;padding:0;}
+#btnPrimary{font-weight:bold;border-top:2px solid gray;border-left:2px solid gray;}
+#masthead{width:100%;border:none;padding:0;margin:0 0 6px 0;}
+#mastLeftCol{width:164px;white-space:nowrap;}
+#logo{display:inline;width:62px;height:62px;border:none;margin-right:.1em;}
+#coach{width:98px;height:62px;border:none;display:inline;}
+#securityguarantee{width:11px;height:16px;border:none;display:inline;}
+#mastRightCol{font-size:100%;}
+#utilities{float:right;margin-top:6px;margin-right:.2em;color:#B2B299;height:1.7em;}
+a.headerLink:link,a.headerLink:visited{text-decoration:none;}
+a.headerLink:hover{text-decoration:underline;}
+.headerTopOn{font-weight:bold;}
+#mastNav{float:left;width:99%;margin-left:.2em;margin-top:1.2em;line-height:normal;background:url(images/grey_pix.gif) bottom repeat-x;height:1.7em;}
+#mastNavJuke{float:left;width:99%;margin-left:.2em;}
+#mastNavOff{float:left;width:99%;margin-left:.2em;margin-top:1.2em;line-height:normal;background:url(images/grey_pix.gif) bottom repeat-x;height:1.7em;}
+#mastNavOff ul{float:right;list-style-type:none;margin:0 1px 0 0;padding:0;}
+#mastNavOff li{float:left;list-style-type:none;margin:0 2px 0 0;padding:0;font-size:92%;background:url(images/htab_right_off.gif) top right no-repeat;}
+#mastNavOff li.tabSelected{font-weight:bold;background:url(images/htab_right_on.gif) top right no-repeat;}
+#mastNavOff li.noneSelected{border-bottom:1px solid #999;background:url(images/htab_right_off.gif) top right no-repeat;}
+#mastNavOff div.tab{float:left;margin:0;padding:0;}
+#mastNavOff div.tabOn{padding:0;margin:0;}
+#mastNavOff a.mastTab{display:block;float:left;padding:4px 6px 2px 15px;text-decoration:none;background:url(images/h_tab_left_off.gif) top left no-repeat;}
+#mastNavOff a.mastTab:hover{color:#4986ff;text-decoration:underline;}
+#mastNavOff li.tabSelected div.tabOn a.mastTab{background:url(images/h_tab_left_on.gif) top left no-repeat;padding-bottom:3px;}
+#mastShim1{float:left;width:540px;height:1px;border:none;}
+div#lastSignOn{float:left;}
+.occupySpace{visibility:hidden;}
+body#online_wellsfargo_com.vudu3{color:#000;background-color:#FFF;margin:0 5px;font-style:normal;font-size:75%;}
+#topBar{margin:0;padding:0;line-height:.5;height:5px;background-color:#dddece;}
+#mainheader{width:99%;min-width:980px;margin:0 5px 0 5px;background-color:#fff;}
+#masthead{padding:0;height:67px;margin:0;}
+#logo{float:left;margin-left:14px;}
+#frmSearch{float:right;margin-top:-1px;padding:3px 5px 5px 5px;background:#dddece url(images/search_corner.gif) bottom left no-repeat;}
+#searchBtn{margin:0 0 -5px 2px;}
+#utility{float:right;margin-right:20px;padding-top:3px;color:#ccc;width:auto;}
+#utility a{text-decoration:none;}
+#utility a:hover{text-decoration:underline;}
+#securityguarantee{background:url(images/securityguarantee.gif) center left no-repeat;padding-left:10px;}
+.prominentNavLinks{font-weight:bold;}
+#skipnav,#skiptocontent,#accessibilityhelp{display:block;width:0;height:0;overflow:hidden;}
+#LOBHead{padding-left:15px;vertical-align:bottom;float:none;margin-left:81px;margin-top:-27px;}
+#background{background-color:#FFF;}
+#content{margin:0;padding:0;width:100%;}
+#panel{border-top:0;border-right:0;background-color:white;vertical-align:top;padding:15px 0 10px 5px;width:100%;}
+#paneltpb{border-top:0;border-right:0;background-color:white;vertical-align:top;padding:0 0 10px 5px;width:100%;}
+#panelJuke{border-top:0;border-right:0;background-color:white;vertical-align:top;width:100%;}
+#panel .section{padding:0 0 15px 0;margin:0;}
+#panel .section p,#panel .linksection p{margin:3px 0 0 0;}
+#panel .section h3{border-bottom:none;}
+#panel .section h2,#panel .linksection h2{border-bottom:1px solid #666;width:100%;margin-top:0;}
+#panel .section .action{float:right;margin-top:4px;}
+#panel .errorbox,#panel .errorbox a{font-size:92%;color:#C00;margin-bottom:10px;}
+#panel #breadcrumb{font-size:92%;border-bottom:1px dashed #CCC;padding-bottom:3px;margin-bottom:3px;}
+#pageHelp{float:right;margin-top:7px;background:transparent url(images/ico_help.gif) 0 50% no-repeat;padding-left:20px;white-space:nowrap;}
+#pageHelp a,#pageHelp a:link,#pageHelp a:visited,a#pageHelp,a#pageHelp:link,a#pageHelp:visited{text-decoration:none;font-weight:bold;}
+#pageHelp a:hover,a#pageHelp:hover{text-decoration:underline;}
+.footnote{font-size:92%;margin-top:5px;text-indent:-10px;margin-left:10px;}
+.subheaderBar{border-bottom:1px solid #666;height:20px;margin-bottom:10px;margin-top:10px;}
+.subheaderBar a{font-size:117%;font-weight:bold;padding-left:10px;}
+.subheaderBarExtras{float:right;}
+.subheaderBarExtras a{padding-left:10px;font-weight:normal;}
+p.error{margin:0;padding:0 0 3px 0;}
+.error{color:#C00;font-weight:bold;}
+.linksection p{margin:3px 0 0 0;}
+.linksection ul.links{margin:0 0 18px 0;list-style:none;padding:0;}
+.linksection ul.links li{display:inline;margin:0;padding:0 1ex 0 0;}
+#container{width:99%;margin:15px 5px 0 5px;padding:0;vertical-align:top;}
+#vudu3Sidebar{background-color:#fff;width:234px;float:left;margin-right:15px;overflow:hidden;}
+#online_wellsfargo_com.vudu3 #content{width:auto;height:100%;margin-left:253px;}
+.buttonBarPage{text-align:right;background-color:#FFFFE2;border-top:1px solid #666;border-bottom:1px solid #666;padding:3px 0 3px 0;margin-top:15px;}
+.buttonBarTable{text-align:right;background-color:#EEEFE1;border-bottom:1px solid #CCC;padding:3px 0 3px 0;}
+.primary{font-weight:bold;}
+.secondary{margin-right:4px;}
+.tertiary{margin-right:18px;}
+div#previoustoolbar{margin-bottom:8px;margin-top:1em;}
+.c15{padding:0 0 15px 10px;background:url(images/caret_header_left.gif) top left no-repeat;}
+div#navigationbar{margin:15px 5px 15px 5px;}
+div#navigationbarblank{margin:10px 5px 12px 5px;height:0;border-top:1px solid #b1b1b1;}
+#menu{width:100%;margin:0 0 -2px 0;padding:0;border-bottom:1px solid #dddece;line-height:normal;}
+#menu1Wrap{float:left;width:100%;background:url(images/levelA_bkg.gif) bottom repeat-x;}
+#menu1Wrap a{display:block;float:left;color:#7e8f9b;font-weight:bold;line-height:14px;margin-right:2px;padding:4px 8px 3px 6px;text-decoration:none;border-left:1px solid #ccc;background:url(images/levelA_tab.gif) 100% 0 no-repeat;}
+#menu1Wrap a:hover{border-left:1px solid #b1b1b1;background:url(images/levelA_tab.gif) 100% 0 no-repeat;color:#4986ff;}
+#menu1Wrap a.selectedTab{display:block;float:left;border-left:1px solid #b1b1b1;font-weight:bold;text-decoration:none;padding-bottom:4px;color:#369;background:url(images/levelA_tab.gif) 100% -150px no-repeat;}
+#menu1Wrap a.selectedTab:hover{color:#4986ff;}
+#menu1Wrap div.tabX{padding:4px 0 2px 0;border-bottom:1px solid #666;background-image:none;border-left:none;}
+#menu1Wrap a#messageIcon{padding-right:35px;display:block;padding-left:6px;font-weight:bold;background:url(images/levelA_tab_msg.gif) no-repeat 100% 0;float:left;padding-bottom:3px;border-left:#ccc 1px solid;color:#7e8f9b;line-height:14px;margin-right:2px;padding-top:4px;text-decoration:none;}
+#menu1Wrap a#messageIcon:hover{background:url(images/levelA_tab_msg.gif) no-repeat 100% 0;border-left:#ccc 1px solid;color:#4986ff;}
+#menu1Wrap a#offerStar{padding-right:35px;display:block;padding-left:6px;font-weight:bold;background:url(images/levelA_tab_offer.gif) no-repeat 100% 0;float:left;padding-bottom:3px;border-left:#ccc 1px solid;color:#7e8f9b;line-height:14px;margin-right:2px;padding-top:4px;text-decoration:none;}
+#menu1Wrap a#offerStar:hover{background:url(images/levelA_tab_offer.gif) no-repeat 100% 0;border-left:#ccc 1px solid;color:#4986ff;}
+#menu1Wrap a.selectedTab#offerStar{display:block;float:left;border-left:1px solid #b1b1b1;font-weight:bold;text-decoration:none;padding-bottom:4px;color:#369;background:url(images/levelA_tab_offer.gif) 100% -150px no-repeat;}
+#menu1Wrap a.selectedTab#offerStar:hover{color:#4986ff;}
+#menu2{width:100%;margin:-2px 0 0 0;padding:0;line-height:normal;border-top:1px solid #dddece;}
+#menu2Wrap{float:left;width:100%;padding-top:1px;background:url(images/levelB_bkg.gif) bottom repeat-x;}
+#menu2Wrap a{display:block;float:left;color:#7e8f9b;font-weight:normal;line-height:14px;margin-right:2px;padding:4px 8px 3px 6px;text-decoration:none;border-left:1px solid #ccc;background:url(images/levelB_tab.gif) 100% 0 no-repeat;}
+#menu2Wrap a:hover{border-left:1px solid #b1b1b1;background:url(images/levelB_tab.gif) 100% -150px no-repeat;color:#4986ff;background-color:#fff;}
+#menu2Wrap a.selectedTab{display:block;float:left;color:#369;font-weight:bold;text-decoration:none;padding-bottom:4px;border-left:1px solid #b1b1b1;background:url(images/levelB_tab.gif) 100% -150px no-repeat;}
+#menu2Wrap a.selectedTab:hover{color:#4986ff;background-color:#fff;border-left:1px solid #b1b1b1;}
+#menu3{width:100%;margin:0;padding:0;border-bottom:1px solid #CCC;}
+#menu3 td{padding:4px 0;}
+#menu3 td a{display:block;float:left;color:#000;font-weight:normal;border:0;border-right:1px solid #b1b1b1;margin:0;padding:0 7px;text-decoration:none;}
+#menu3 td a:hover{color:#4986FF;text-decoration:underline;}
+#menu3 td a.selectedTab{display:block;float:left;font-weight:bold;color:#000;text-decoration:none;padding-left:12px;background:url(images/levelC_arrow.gif) 3px no-repeat;}
+#menu3 td a.selectedTab:hover{color:#4986FF;text-decoration:underline;}
+.shading{margin:0 1px;border-bottom:1px solid #666;background:url(images/levelB_bkg.gif) top repeat-x;height:2px;line-height:2px;}
+div.clearer{display:none;}
+/* Commented Backslash Hack for MacIE5 \*/ div.clearer{display:inherit;clear:left;line-height:0;height:2px;}
+#menu2Wrap a{background:url(images/levelB_tab.gif)100% 0 no-repeat;}
+/* End MacIE5 hack */ #footer{line-height:1.3em;text-align:center;border-top:1px solid #999;padding-top:10px;margin-bottom:10px;margin-top:30px;}
+#footer a{text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
+div#EQL{text-align:center;margin-top:5px;margin-bottom:5px;}
+div#EQL img{padding-right:2px;}
+span#equalhousinglender{font-weight:bold;}
+#minWidth{display:block;clear:both;min-width:981px;width:981px;height:1px;}
+.screenReaderDelimiter1{color:#FFF;background-color:#FFF;}
+.screenReaderDelimiter3{color:#eee;background-color:#eee;}
+.screenReaderSprinkle{font-size:92%;white-space:nowrap;font-weight:normal;}
+div.pipedNav{font-size:117%;font-weight:bold;border-bottom:1px solid #666;padding-bottom:3px;}
+div.pipedNav a{font-size:97%;}
+span.pipedNav{font-size:18px;font-weight:bold;padding-bottom:3px;}
+span.pipedNav a:link,span.pipedNav a:visited,span.pipedNav a:active{font-size:12px;}
+.warnNoCss{display:none;}
+#businessviewselector{margin:1em 0 0 0;width:99%;border-bottom:1px solid #666;}
+#vudu3Marquee #businessviewselector{border-bottom:none;}
+div.xcpHandler div.xcpErrorText{font-size:12px;font-weight:normal;color:black;}
+div.xcpHandler div.xcpStackTrace{display:none;}
+ul.linklist{line-height:1.5em;list-style-type:none;padding:0;}
+ul.text{list-style-type:disc;line-height:normal;}
+td.listClm ul{margin:0;padding:0;}
+td.listClm li{line-height:.8em;padding-top:3px;}
+td.listClm li ul{margin-left:10px;}
+td.listClm li ul.indented{margin:0 20px;}
+td.listClm a{text-decoration:none;}
+td.listClm li h2{margin-bottom:0;}
+td.listClm h2 a{font-weight:bold;}
+td.listClm li ul li a{font-size:75%;}
+td.listClm a:hover{text-decoration:underline;}
+td.listClm h3{margin:0;color:#666;}
+td.listClm div.banner{border:1px solid #F90;padding:5px;margin:20px 0 0 0;width:160px;}
+td.listClm div.banner h4{font-size:75%;margin:0;padding:0 0 .3em 0;background:#FFF;border:0;}
+td.listClm p{line-height:1em;margin:0 0 .3em 0;}
+#panel #bodycontent .section h3{border-bottom:1px solid #666;width:100%;margin:0;padding:0;}
+table.data{width:100%;margin-bottom:15px;border-collapse:collapse;}
+table.intro{border-top:1px solid #CCC;}
+table.data td{vertical-align:top;padding:2px 6px;border-bottom:1px solid #CCC;border-left:1px solid #CCC;}
+table.data th{vertical-align:bottom;padding:2px 6px;border-bottom:1px solid #CCC;border-left:1px solid #CCC;}
+table.data td.firstCol,table.data th.firstCol{border-left:0;}
+table.data td.lastRow{border-bottom:0;}
+table.data td.expandedRow{border-bottom:0;}
+table.data td.greyBackground{background-color:#EEEFE1;}
+table.data th.greyBackground{background-color:#EEEFE1;}
+table.data th.padLeft21pxNormalText{padding-left:21px;font-weight:normal;vertical-align:top;}
+table.data td.noRightBorder{border-right:0;}
+td.text,th.text{padding-right:10px;text-align:left;}
+td.date{white-space:nowrap;}
+td.mixed{text-align:right!important;}
+table.data td.text2{padding-left:31px;padding-right:10px;text-align:left;}
+td.currency,th.currency,td.number,th.number{text-align:right;border-bottom:1px solid #CCC;white-space:nowrap;}
+td.percent,th.percent{text-align:right;border-bottom:1px solid #CCC;white-space:nowrap;}
+td.subinfo{border:0;border-bottom:1px solid #CCC;text-align:left;color:#000;}
+td.actionrow{border:0;text-align:right;}
+tr.total{background-color:#EEEFE1;}
+tr.divider td{padding-top:8px;border-bottom:1px solid #999;}
+div#background table#content div.section table.data tr.divider td h3{font-size:100%;color:#000;border-bottom:0;margin:0;}
+div#background table#content div.section table.data tr td h4{font-size:100%;color:#666;margin:0;}
+tr.spacer td{padding:0;border-bottom:1px solid #999;}
+table.data td.highlight,table.data th.highlight{background-color:#FFFFE2;border:1px solid #999;white-space:nowrap;}
+table.data td.textHighlight,table.data th.textHighlight,table.data tr.textHighlight{background-color:#FFFFE2;border:1px solid #999;white-space:nowrap;}
+table.data td.topRow,table.data th.topRow{border-top:1px solid #999;white-space:nowrap;}
+.screenReaderDelimiter2{color:#FFFFE2;}
+table.data td.currencyHighlight{background-color:#FFFFE2;border-top:1px solid #999;border-left:1px solid #CCC;border-bottom:1px solid #999;border-right:1px solid #999;text-align:right;}
+table.data th.mainSort{background-color:#FFFFE2;border:1px solid #999;white-space:nowrap;}
+td.nowrap{white-space:nowrap;}
+table.formlayout td{vertical-align:top;}
+a.hidden,a.hidden:visited{color:#000;text-decoration:none;}
+a.hidden:hover{color:#4986FF;text-decoration:underline;}
+.debit,.debit a{color:#C00;}
+img.tableicon{border:0;margin-bottom:-2px;}
+.transTableInstr{font-size:92%;color:#666;}
+.columnSpacer{padding-left:5px;}
+table.data thead{display:table-header-group;}
+th.rowhead{font-weight:normal;}
+.formlabel{font-weight:bold;}
+.verifyFormData,.confirmFormData{font-weight:normal;}
+.formPseudoTable{border:1px solid black;padding:5px 5px 5px 5px;}
+.formPseudoRow{vertical-align:top;margin-top:1em;clear:both;}
+.formNarrowPseudoRow{vertical-align:top;margin-top:0;clear:both;}
+.acrossColumn{width:100%;}
+.acrossColumnForm{width:400px;}
+.labelColumn{width:165px;float:left;vertical-align:top;padding-left:.5em;}
+.labelWFAColumn{width:185px;float:left;vertical-align:top;padding-left:.5em;}
+.labelAfsColumn{width:175px;float:left;vertical-align:top;padding-left:.5em;}
+.labelColumnPaymentAllocationType{width:170px;float:left;vertical-align:top;padding-left:.3em;}
+.formCtlColumn{vertical-align:top;margin-left:180px;}
+.formWFACtlColumn{vertical-align:top;margin-left:188px;}
+.formDollarColumn{vertical-align:top;margin-left:171px;}
+.formCtlHintColumn{vertical-align:top;margin-left:180px;color:#666;}
+.fmtIctTable{margin-left:178px;margin-bottom:-5px;vertical-align:top;}
+.formCtlAfsColumn{vertical-align:top;margin-left:200px;}
+.formSectionHead{border-bottom:1px solid #666;width:100%;color:#000;}
+.horizontalRule{border-bottom:1px solid #ccc;width:100%;color:#000;margin-bottom:5px;margin-top:5px;}
+div.acrossColumn{padding-left:.5em;}
+.labelHint,.formCtlHint{font-weight:normal;margin-left:6px;color:#666;}
+.labelHintSpecial{font-weight:bold;margin-left:6px;color:#000;line-height:5px;}
+.formCtlHintDescription{font-weight:normal;margin-left:0;color:#666;}
+.labelHintlalign{font-weight:normal;margin-left:0;color:#666;}
+.column-one{clear:both;float:left;margin-right:10px;}
+.column-other{float:left;margin-right:10px;}
+p.success{color:#090;}
+.labelCol{width:300px;float:left;vertical-align:top;padding-left:.5em;}
+.supnote{font-size:92%;padding:0;}
+.divnote{font-size:92%;margin-top:5px;}
+.labelColumnCardAct{width:165px;float:left;vertical-align:top;}
+.formCtlColumnCardActDOB{vertical-align:top;margin-top:1em;margin-left:174px;}
+.formCtlColumnCardActPhone{vertical-align:top;margin-top:1em;margin-left:176px;}
+.formCtlColumnCardActSecurityCode{vertical-align:top;margin-top:1em;margin-left:182px;}
+.textBox{padding:6px 6px 8px 6px;border:1px solid #666;color:#666;}
+.labelColumnAcctProfile{font-weight:bold;width:178px;margin-left:8px;float:left;vertical-align:top;display:inline;white-space:normal;}
+.formCtlColumnAcctProfile{margin-left:11px;vertical-align:top;display:inline;}
+.formPseudoRowAcctProfile{vertical-align:top;margin-top:20px;clear:both;white-space:normal;}
+.formPseudoRowAcctProfileAddress{vertical-align:top;margin-left:0;margin-top:2px;clear:both;}
+.labelColumnAcctProfileAddress{color:#FFF;background-color:#FFF;font-weight:bold;width:178px;margin-left:8px;float:left;vertical-align:top;display:inline;}
+.grayVerticalBar{color:#999;}
+.labelReorderInfo{width:165px;float:left;vertical-align:top;}
+.valueReorderInfo{vertical-align:top;margin-left:180px;}
+.valueReorderInfoIndent{vertical-align:top;margin-left:24px;}
+.valueReorderInfoIndent3{vertical-align:top;margin-left:3px;}
+.subSection{font-size:117%;}
+.labelReorderInfo1{width:250px;float:left;vertical-align:top;}
+.valueReorderInfoIndent2{vertical-align:top;margin-left:93px;}
+table.reorderData{width:100%;margin-bottom:15px;margin-top:1em;border-collapse:collapse;}
+table.reorderData td{vertical-align:top;padding:2px 6px;border-bottom:1px solid #CCC;border-left:1px solid #CCC;border-right:1px solid #CCC;}
+table.reorderData th{font-size:120%;vertical-align:bottom;padding:2px 6px;border-bottom:1px solid #CCC;border-left:1px solid #CCC;border-right:1px solid #CCC;}
+.boldText{font-weight:bold;}
+.reorderUL{margin-top:0;margin-bottom:1em;}
+.reorderLI{margin-left:-2em;}
+.reorderTop{margin-top:2em;}
+.reorderLeft{margin-left:2em;}
+.reorderFormSectionHead{font-size:120%;vertical-align:bottom;border-bottom:1px solid #666;margin-bottom:1em;width:100%;color:#000;}
+table.lastOrderData{width:100%;margin-bottom:15px;border-collapse:collapse;}
+table.lastOrderData td{vertical-align:top;padding:2px 6px;border-left:1px solid #CCC;}
+table.lastOrderData th{vertical-align:bottom;padding:0;border-bottom:1px solid #CCC;border-left:1px solid #CCC;}
+table.lastOrderData td.firstCol,table.lastOrderData th.firstCol{border-left:0;}
+table.lastOrderData td.expandedRow{border-bottom:0;}
+.h2Size{font-size:120%;font-weight:bold;border-bottom:1px solid #666;color:#000;width:97%;}
+.h2SizeFull{font-size:120%;font-weight:bold;border-bottom:1px solid #666;width:100%;color:#000;}
+.h2SizeFullBlue{font-size:120%;font-weight:bold;border-bottom:1px solid #CCC;width:100%;color:#000;}
+.h2SizeError{font-size:120%;font-weight:bold;border-bottom:1px solid #666;width:97%;color:#F00;}
+.labelReorderInfoError{width:165px;float:left;vertical-align:top;color:#F00;}
+.valueReorderInfoError{vertical-align:top;margin-left:180px;color:#F00;}
+.vudu3DataTableHeading{font-size:117%;color:black;font-weight:bold;margin-bottom:0;margin-top:0;}
+table.vudu3DataTable{border-top:1px solid #666;border-bottom:1px solid #666;width:100%;margin-bottom:34px;border-collapse:collapse;}
+table.vudu3DataTableNoBorder{border-top:0 solid #666;}
+table.vudu4DataTable{border-top:1px solid #666;border-bottom:0 solid #666;width:100%;margin-bottom:15px;border-collapse:collapse;}
+table.vudu3DataTable th,table.vudu3DataTable td{padding:6px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;}
+table.vudu3DataTable th.accountName{width:33%;}
+table.vudu3DataTable th.accountName4{width:33%;}
+table.vudu3DataTable th.tcaFirstCol{border-left:0;width:66.5%;white-space:nowrap;text-align:left;}
+table.vudu3DataTable th.balanceCol{width:33.5%;white-space:nowrap;text-align:right;}
+table.vudu3DataTable th.balanceCol4os{width:25%;white-space:nowrap;text-align:right;}
+table.vudu3DataTable th.balanceCol4ac{width:20%;white-space:nowrap;text-align:right;}
+table.vudu3DataTable th.relatedActivities{width:37%;}
+table.vudu3DataTable th.relatedActivities4{width:22%;}
+table.vudu3DataTable th.cllAccountName{width:26%;}
+table.vudu3DataTable th.cllObligation{width:24%;}
+table.vudu3DataTable th.cllCommitmentAmount{width:18%;white-space:nowrap;text-align:right;}
+table.vudu3DataTable th.cllUsedAmount{width:16%;white-space:nowrap;text-align:right;}
+table.vudu3DataTable th.cllUnusedAmount{width:16%;white-space:nowrap;text-align:right;}
+table.vudu3DataTable th.firstColSubaccount{padding-left:35px;border-left:0 none;}
+table.vudu3DataTable th.subaccountHeader{background-color:#E1E9F5;}
+table.vudu3DataTable th.subaccount{background-color:#F0F4FA;}
+table.vudu3DataTable th{vertical-align:bottom;}
+table.vudu3DataTable td{vertical-align:top;}
+table.vudu3DataTable th.text,table.vudu3DataTable td.text{text-align:left;}
+table.vudu3DataTable td.firstCol,table.vudu3DataTable th.firstCol{border-left:0;}
+table.vudu3DataTable td.amount{text-align:right;}
+table.vudu3DataTable td.subaccount{background-color:#F0F4FA;}
+table.vudu3DataTable thead{display:table-header-group;}
+table.vudu3DataTable thead th{color:#666;font-weight:bold;white-space:nowrap;text-align:left;}
+table.vudu3DataTable th.rowhead{font-weight:normal;text-align:left;}
+table.vudu3DataTable th.sectionrow{color:black;font-weight:bold;background-color:#eeefe1;}
+table.vudu3DataTable th.subtotal{color:black;background-color:white;font-weight:bold;}
+table.vudu3DataTable td.subtotal{color:black;font-size:117%;font-weight:bold;}
+table.vudu3DataTable tfoot th{font-weight:bold;}
+table.vudu3DataTable th.totalrow,table.vudu3DataTable td.totalrow{background-color:#eeefe1;}
+table.vudu3DataTable tfoot th.lastRow,table.vudu3DataTable tfoot td.lastRow{border-bottom:none;}
+table.vudu3DataTable tfoot td.amount{font-size:117%;font-weight:bold;text-align:right;}
+table.vudu3DataTable a.account{font-weight:bold;}
+table.vudu3DataTable a.amount{font-weight:bold;font-size:117%;color:black;white-space:nowrap;text-decoration:none;}
+table.vudu3DataTable a.subAmount{font-weight:normal;font-size:117%;color:black;white-space:nowrap;text-decoration:none;}
+table.vudu3DataTable a.amount:hover,table.vudu3DataTable a.subAmount:hover{color:#4986ff;text-decoration:underline;}
+table.vudu3DataTable td.subtotalAmount{font-weight:bold;font-size:117%;color:black;white-space:nowrap;}
+.nonFDICmarker{font-weight:normal;font-size:90%;color:black;}
+.entityname{color:#666;font-size:90%;}
+table.vudu3DataTable td.accentbalance{font-weight:bold;font-size:117%;color:black;white-space:nowrap;text-decoration:none;}
+table.vudu3DataTable tbody tr th,table.accountsummary tbody tr td{vertical-align:top;}
+table.vudu3DataTable th.pageFooter{background-color:#eeefe1;font-size:91%;}
+table.vudu3DataTable td.pageFooter{background-color:#eeefe1;font-size:91%;}
+table.data td.textGreyBackground,table.data th.textGreyBackground,table.data tr.textGreyBackground{background-color:#EEEFE1;border:1px solid #999;white-space:nowrap;}
+#consolidatedAcc{color:#666;font-weight:bold;white-space:nowrap;text-align:left;}
+#online_wellsfargo_com.vudu3 #container{width:99%;margin:15px 5px 0 5px;padding:0;vertical-align:baseline;}
+#vudu3Marquee #businessviewselector{border-bottom:none;margin:0;float:left;width:auto;}
+#vudu3Marquee{margin-bottom:22px;}
+#online_wellsfargo_com.vudu3 #vudu3Marquee div.businessviewselectormargin{margin-bottom:12px;}
+#vudu3Marquee #businessviewselector form{margin:0;}
+#vudu3Marquee #pageHelp{margin-top:0;}
+div#LOBHead.pcgLobHead{float:right;}

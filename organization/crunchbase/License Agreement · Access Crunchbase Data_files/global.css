@@ -1,0 +1,407 @@
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+   2.0.1) Font Face
+   2.0.2) Global Headings
+   2.0.3) Form Elements
+   2.0.4) List styles
+   2.0.5) General Text Formatting
+   2.0.6) Link elements
+   2.0.7) Table Elements
+   2.0.8) Button Styles
+   2.0.9) Sprite Icons
+   2.1.0) 960 Grid Style
+ 3.) Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  /*border-collapse: collapse;*/
+  border-spacing: 0;
+  /*border-left:1px solid red;
+  border-top:1px solid red;*/
+}
+
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+*, :before, :after{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
+}
+body {
+  font-size: 12px;  
+  /*background: url('../images/new-bg.jpg') top center;
+  opacity:.5;*/
+  /*font-family:Helvetica,Arial;*/
+  
+  color:#333333;
+}
+/*
+ 2.0.1) Font Face
+ -----------------------------*/
+/*Put Your font face Styles here*/
+
+/*
+ 2.0.2) Global Headings
+ -----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #161e21;
+}
+h1 {
+  
+}
+h2 {
+  
+}
+h3 {
+  
+}
+h4 {
+  
+}
+h5 {
+  
+}
+h6 {
+  
+}
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+button, input, optgroup, select, textarea {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
+input {
+  line-height: normal;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+  border: 1px #888 solid;
+  outline: 0;
+}
+input[type="checkbox"], input[type="radio"] {
+  padding: 0;
+  border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="file"] {
+  -webkit-appearance: none;
+  cursor: pointer;
+  line-height: normal;
+  overflow: visible;
+}
+button[disabled], input[disabled] {
+  cursor: default;
+  color: #999;
+  border-color: #ccc;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+ul, ol, dl {
+  font-size: 100%;
+  line-height: 10px;
+}
+li, dt {
+  line-height: 10px;
+}
+dl {
+  margin: 0 0 10px 0;
+}
+dd {
+  margin: 0 0 10px 10px;
+}
+ul {
+  list-style-type: disc;
+  margin: 0 0 10px 0;
+  padding-left: 40px;
+}
+ol {
+  list-style-type: decimal;
+  margin: 0 0 10px 0;
+}
+ul ul, ol ul {
+  list-style-type: circle;
+  margin-top: 0;
+}
+ol ol {
+  list-style-type: lower-latin;
+  margin-top: 0;
+}
+
+/*
+ 2.0.5) General Text Formatting
+ -----------------------------------*/
+p {
+  font-size: 100%;
+  line-height: 20px;
+}
+blockquote, cite, q, var, dfn {
+  font-style: italic;
+}
+blockquote {
+  background: transparent;
+  color: #666666;
+}
+small {
+  /* font-size: 12px; */
+  font-size: 11px;
+  line-height: 10px;
+}
+pre, code, kbd, tt, samp, var {
+  font-size: 100%;
+}
+pre {
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+pre, code {
+  color: #880000;
+}
+kbd, samp, var {
+  color: #666666;
+  font-weight: bold;
+}
+acronym, abbr {
+  border-bottom: 1px #aaa dotted;
+  font-variant: small-caps;
+  cursor: help;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/*
+ 2.0.6) Link style
+ -------------------------*/
+a {
+  color: #0f7fb3;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #0f7fb3;
+  text-decoration: none;
+}
+a:active {
+  outline: none;
+}
+
+/*
+ 2.0.7) Table Elements
+ --------------------------*/
+table {
+  width: 100%;
+  /*border-collapse: collapse;*/
+  color: #444444;
+  /*border-top: 1px #999999 solid;*/
+  /*border-bottom: 1px #999999 solid;*/
+  /*border-left:1px solid #999999;*/
+  margin: 0 0 10px 0;
+}
+/*caption {
+  font-variant: small-caps;
+}
+th, td {
+  line-height: 10px;
+  vertical-align: top;
+  padding: 10px 10px;
+}
+th *:first-child, td *:first-child {
+  margin-top: 0;
+}
+thead th {
+  text-align: left;
+  color: #000;
+  border-bottom: 1px #0a4f6f solid;
+}
+tbody th {
+  text-align: left;
+  border-top: 1px solid #0a4f6f;
+}
+tbody td {
+  text-align: left;
+  border-bottom: 1px solid #999999;
+}
+tbody tr{
+  border-right:1px solid #999999;
+  height:60px;
+}*/
+
+
+/*
+ 2.0.8) Button Styles
+ -------------------------*/
+/*.btn, input.btn, button.btn {
+  display: inline-block;
+  font-size: 12px;
+  color: #000;
+  line-height: normal;
+  vertical-align: middle;
+  padding: 0 5px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+.btn:hover, .btn:focus , input.btn:hover, input.btn:focus, button.btn:hover, button.btn:focus{
+  color: #4d87ff;
+  border: 1px solid #888;
+}*/
+/*
+ 2.0.9) Sprite Icons
+ -------------------------*/
+[class^="icon-"], [class*="icon-"] {
+  background-image: url("../images/sprite.png.html");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  margin-top: 1px;
+  vertical-align: text-top;
+  width: 14px;
+}
+/*
+ 2.1.0) 960 Grid Style
+ -------------------------*/
+/*
+  Variable Grid System (Fluid Version).
+  Learn more ~ http://www.spry-soft.com/grids/
+  Based on 960 Grid System - http://960.gs/ & 960 Fluid - http://www.designinfluences.com/
+
+  Licensed under GPL and MIT.
+*/
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+/*.container{
+  width:1260px;
+  margin:0 auto;
+  
+  border:1px solid red;
+  
+}*/
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+/*
+ 3.) Site Wide Content
+ ------------------------------*/
+#wrapper {
+}
+/*
+ 4.) Header Styles
+ ------------------------------*/
+#header {
+}
+/*
+ 5.) Footer Styles
+ ------------------------------*/
+#footer {
+}

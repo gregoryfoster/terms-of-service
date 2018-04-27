@@ -1,0 +1,34 @@
+*{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+html{font:normal 75%/normal Arial,sans-serif;color:#333;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html body{line-height:1.5}
+a,b,abbr,acronym,address,article,aside,audio,b,blockquote,body,canvas,center,details,dd,div,dt,dl,em,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,i,iframe,img,label,mark,menu,meter,nav,object,ol,p,pre,progress,section,span,strong,summary,table,tbody,td,th,time,tr,ul,video{margin:0;padding:0;border:0;vertical-align:baseline}
+a,abbr,acronym,address,address,article,aside,audio,b,blockquote,body,button,canvas,dd,details,div,dl,dt,em,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,i,iframe,img,input,label,li,mark,menu,meter,nav,object,ol,p,pre,progress,section,select,span,strong,summary,table,tbody,td,textarea,th,time,tr,ul,video{_font-size:1em;_font-family:Arial,sans-serif;font:inherit}
+.qmb table,.qmb input{line-height:1.5}
+i,em{font-style:italic}
+b,strong{font-weight:bold}
+h1,h2,h3,h4,h5,h6,th{font-weight:normal}
+address{font-style:normal}
+@media \0screen\,screen\9{article,aside,blockquote,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}
+}
+audio,canvas,meter,progress,video{display:inline-block;_display:inline;_zoom:1}
+mark{_background-color:yellow}
+button,input,select,textarea{margin:0;padding:0;vertical-align:baseline;_vertical-align:middle}
+textarea{overflow:auto}
+button,input.btn,input.txt,select{height:21px}
+button,input.btn{cursor:pointer}
+button[disabled],input[disabled]{cursor:default}
+button,input.btn{padding:1px 0;_overflow:visible;_padding:0;_line-height:normal}
+@-moz-document url-prefix(){button,input.btn{height:auto;line-height:normal}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0}
+}
+button,input.btn,input.txt,textarea{-webkit-appearance:none;-webkit-border-radius:0}
+button,input.btn,input.txt,textarea,select{border:1px solid #CCC}
+ul,ol{list-style-position:outside}
+ol{padding:0 0 0 18px;_padding:0 0 0 24px}
+ul{padding:0 0 0 18px}
+nav ul{list-style-type:none;padding:0}
+table{border-spacing:0;border-collapse:collapse;empty-cells:show}
+table th{text-align:left}
+img{-ms-interpolation-mode:bicubic}
+pre,pre *,code,code *{font-family:"Courier New",Courier,monospace;white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+hr{display:block;border-top:1px solid #d9d9d9;height:1px;margin:12px 0;_margin:5px 0}

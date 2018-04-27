@@ -1,0 +1,124 @@
+.nonCntAlign #vgc-globalFooter .vgc-constrainedCentered,
+.nonCntAlign #vgc-globalFooter .vgc-isCenterAligned,
+.nonCntAlign #vgc-globalFooter .vgc-utilityBar .vgc-utilityBarContainer,
+.nonCntAlign #vgc-globalFooter .vgc-navBar .vgc-navBarContainer,
+.nonCntAlign #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.nonCntAlign #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-topRow,
+.nonCntAlign #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.nonCntAlign #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar,
+.nonCntAlign #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar ul, .nonCntAlign #vgc-globalHeader .vgc-constrainedCentered,
+.nonCntAlign #vgc-globalHeader .vgc-isCenterAligned,
+.nonCntAlign #vgc-globalHeader .vgc-utilityBar .vgc-utilityBarContainer,
+.nonCntAlign #vgc-globalHeader .vgc-navBar .vgc-navBarContainer,
+.nonCntAlign #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.nonCntAlign #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-topRow,
+.nonCntAlign #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.nonCntAlign #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar,
+.nonCntAlign #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar ul, .vuiLeftAlignPage #vgc-globalFooter .vgc-constrainedCentered,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-isCenterAligned,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-utilityBar .vgc-utilityBarContainer,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-navBar .vgc-navBarContainer,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-topRow,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar,
+.vuiLeftAlignPage #vgc-globalFooter .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar ul, .vuiLeftAlignPage #vgc-globalHeader .vgc-constrainedCentered,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-isCenterAligned,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-utilityBar .vgc-utilityBarContainer,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-navBar .vgc-navBarContainer,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-topRow,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-subSiloSection,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar,
+.vuiLeftAlignPage #vgc-globalHeader .vgc-navBar .vgc-navigation .vgc-highLevelNav .vgc-silo .vgc-siloPanel .vgc-actionBar ul {
+  margin-left: 0; }
+
+body {
+  margin: 0; }
+
+#vgc-globalHeader, #vgc-globalFooter {
+  font-size: 16px;
+  line-height: normal;
+  font-family: arial, sans-serif; }
+  #vgc-globalHeader *, #vgc-globalFooter * {
+    text-align: left;
+    box-sizing: content-box; }
+  #vgc-globalHeader button, #vgc-globalFooter button {
+    box-sizing: border-box; }
+  #vgc-globalHeader a, #vgc-globalHeader a:link, #vgc-globalHeader a:hover, #vgc-globalHeader a:focus, #vgc-globalHeader a:active, #vgc-globalFooter a, #vgc-globalFooter a:link, #vgc-globalFooter a:hover, #vgc-globalFooter a:focus, #vgc-globalFooter a:active {
+    border-bottom: none; }
+  #vgc-globalHeader ul li, #vgc-globalFooter ul li {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  #vgc-globalHeader ul, #vgc-globalHeader ul li, #vgc-globalFooter ul, #vgc-globalFooter ul li {
+    font-size: 16px;
+    line-height: normal; }
+  #vgc-globalHeader label, #vgc-globalFooter label {
+    font-size: 100%; }
+
+#vgc-globalHeader .vgc-pe .vgc-brandHeader .vgc-brandHeaderContainer .vgc-brandHeaderRegion .vgc-corporate {
+  background-image: url(../progressive-enhancement/logo_vanguard_ship.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalHeader .vgc-pe .vgc-brandHeader .vgc-brandHeaderContainer .vgc-brandHeaderRegion .vgc-corporate {
+      background-image: url(../progressive-enhancement/logo_vanguard_ship.svg); } }
+#vgc-globalHeader .vgc-pe .vgc-searchBar .vgc-submitWrapper .vgc-searchSubmit {
+  background: url(../progressive-enhancement/Icon_Search.png) no-repeat center center; }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalHeader .vgc-pe .vgc-searchBar .vgc-submitWrapper .vgc-searchSubmit {
+      background: url(../progressive-enhancement/Icon_Search.svg) no-repeat center center; } }
+
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-facebook {
+  background-image: url(../progressive-enhancement/facebook.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-facebook {
+      background-image: url(../progressive-enhancement/facebook.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-twitter {
+  background-image: url(../progressive-enhancement/social_twitter.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-twitter {
+      background-image: url(../progressive-enhancement/social_twitter.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-googleplus {
+  background-image: url(../progressive-enhancement/google.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-googleplus {
+      background-image: url(../progressive-enhancement/google.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-youtube {
+  background-image: url(../progressive-enhancement/youtube.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-youtube {
+      background-image: url(../progressive-enhancement/youtube.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-linkedin {
+  background-image: url(../progressive-enhancement/linkedin.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-linkedin {
+      background-image: url(../progressive-enhancement/linkedin.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-subscriptions {
+  background-image: url(../progressive-enhancement/rss.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-subscriptions {
+      background-image: url(../progressive-enhancement/rss.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-blog {
+  background-image: url(../progressive-enhancement/blog.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-blog {
+      background-image: url(../progressive-enhancement/blog.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-mobileApps {
+  background-image: url(../progressive-enhancement/Vanguard_Mobile_Apps.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-socialLinks .vgc-socialLinksContainer .vgc-socialLinksRegion ul li a.vgc-mobileApps {
+      background-image: url(../progressive-enhancement/Vanguard_Mobile_Apps.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a span.vgc-iconRight span.vgc-linkIcon {
+  background-image: url(../progressive-enhancement/link_offsite_enabled.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a span.vgc-iconRight span.vgc-linkIcon {
+      background-image: url(../progressive-enhancement/link_offsite_enabled.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a:hover span.vgc-iconRight span.vgc-linkIcon, #vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a:focus span.vgc-iconRight span.vgc-linkIcon, #vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a:active span.vgc-iconRight span.vgc-linkIcon {
+  background-image: url(../progressive-enhancement/link_offsite_hover_active.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a:hover span.vgc-iconRight span.vgc-linkIcon, #vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a:focus span.vgc-iconRight span.vgc-linkIcon, #vgc-globalFooter .vgc-pe .vgc-legalFooterContainer .vgc-legalFooterRegion .vgc-mainContent .vgc-legalFooterDisclosure a:active span.vgc-iconRight span.vgc-linkIcon {
+      background-image: url(../progressive-enhancement/link_offsite_hover_active.svg); } }
+#vgc-globalFooter .vgc-pe .vgc-legalFooter .vgc-linkList li a .vgc-adChoicesIcon {
+  background-image: url(../progressive-enhancement/AdChoices.png); }
+  @media only print, screen and (min-width: 0px) {
+    #vgc-globalFooter .vgc-pe .vgc-legalFooter .vgc-linkList li a .vgc-adChoicesIcon {
+      background-image: url(../progressive-enhancement/AdChoices.svg); } }

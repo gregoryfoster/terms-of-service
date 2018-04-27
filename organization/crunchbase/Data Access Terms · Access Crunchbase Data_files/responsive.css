@@ -1,0 +1,132 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+@media only screen and (max-width : 1119px) {
+/* Styles */
+}
+
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+@media only screen and (min-width : 768px) and (max-width : 1002px) {
+/* Styles */
+
+.wrapper-content .page-description {
+  padding-left: 0;
+  padding-right: 0;
+  display: inline-block;
+  width: 100%;
+}
+.package-wrapper.container {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+}
+.five-col.access,
+.five-col.last-pad,
+.five-col.last-col,
+.five-col.mid-col {
+  width: 32%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.wrapper-content .page-description .access {
+  padding: 0 0 40px;
+}
+.wrapper-content .page-description .open-wrap {
+  padding: 10 10 0 10px;
+}
+.wrapper-content .inner-para-one p {
+  line-height: 140%;
+}
+.wrapper-content .page-description .access .success {
+  position: static;
+  left: initial;
+  bottom: initial;
+}
+.inner-wrapper .feature-section {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+ul.four-inner-wrapper {
+  padding-left: 10px;
+}
+.wrapper-content .feautre-content h4 {
+  margin-left: auto;
+  text-align: center;
+}
+
+}
+
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 767px){
+/* Mobile Grids */
+  .container_12 [class*="grid_"]{
+    display: block;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .wrapper-content .page-description {
+  padding-left: 0;
+  padding-right: 0;
+  display: inline-block;
+  width: 100%;
+}
+.package-wrapper.container {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+}
+.five-col.access,
+.five-col.last-pad,
+.five-col.last-col,
+.five-col.mid-col {
+  width: 32%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.wrapper-content .page-description .access {
+  padding: 0 0 40px;
+}
+.wrapper-content .page-description .open-wrap {
+  padding: 10 10 0 10px;
+}
+.wrapper-content .inner-para-one p {
+  line-height: 140%;
+}
+.wrapper-content .page-description .access .success {
+  position: static;
+  left: initial;
+  bottom: initial;
+}
+.inner-wrapper .feature-section {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+ul.four-inner-wrapper {
+  padding-left: 10px;
+}
+.wrapper-content .feautre-content h4 {
+  margin-left: auto;
+  text-align: center;
+}
+
+}
+
+
